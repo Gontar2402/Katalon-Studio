@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_005 Utworzenie zaleglego jednodniowego wniosku urlopowego na zadanie</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd029c49-f1be-4a52-a6e1-1589ed71bc2f</testCaseGuid>
+</TestCaseEntity>

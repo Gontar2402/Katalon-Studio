@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_012.2 Filtrowanie - Rejestr korespondencji przychodzacej po kolumnie Data wplywu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcb0983c-eaf2-4521-b3ba-5a914ab58839</testCaseGuid>
+</TestCaseEntity>

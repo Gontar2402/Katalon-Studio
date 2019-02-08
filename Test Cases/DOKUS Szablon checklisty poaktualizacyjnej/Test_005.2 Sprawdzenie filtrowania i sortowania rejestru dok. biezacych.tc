@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_005.2 Sprawdzenie filtrowania i sortowania rejestru dok. biezacych</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>442ca45c-ef2f-4ebe-a646-2f9d5fd84bdc</testCaseGuid>
+</TestCaseEntity>

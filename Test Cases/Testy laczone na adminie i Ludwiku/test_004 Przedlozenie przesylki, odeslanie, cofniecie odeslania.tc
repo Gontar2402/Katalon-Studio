@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_004 Przedlozenie przesylki, odeslanie, cofniecie odeslania</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f40f883f-6f59-4550-b533-9edfaa2ed405</testCaseGuid>
+</TestCaseEntity>

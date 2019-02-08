@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_004.2 Sprawdzenie filtrowania i sortowania rejestru dok. wew</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff83d12e-1d25-4681-9224-24039d0a214f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Stworzenie uzytkownika
+Sprawdzenie czy uzytkownik sie dodal
+zmiana hasla 
+sprawdzanie czy jest komunikat poprawnie zmieniono haslo
+usuniecie tego uzytkownika</description>
+   <name>test_001 Nowy uzytkowni , zmiana hasla uzytkownika</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59526494-f33b-46a1-9ee3-5d387a07834d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_004.1 Dodanie wychodzacego punktu kancelaryjnego</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a62f052a-e798-446b-9032-894a99d8586e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2aa6645c-525e-481d-a016-2f86fbcced47</id>
+      <masked>false</masked>
+      <name>test</name>
+   </variable>
+</TestCaseEntity>

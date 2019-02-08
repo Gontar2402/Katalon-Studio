@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_003.1 Sprawdzanie czy przesylka zostala zarejestrowana w odpowiednim punkcie</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c248c825-d974-433a-ad30-8abc60b60fce</testCaseGuid>
+</TestCaseEntity>

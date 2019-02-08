@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_010.1 Powiazanie osoby ze sprawa, usuniecie osoby powiazanej ze sprawa</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c30d1f17-7aa4-45c9-8eae-cd7454e78f0f</testCaseGuid>
+</TestCaseEntity>

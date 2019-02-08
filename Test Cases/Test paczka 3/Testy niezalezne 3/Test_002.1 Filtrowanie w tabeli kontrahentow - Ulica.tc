@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_002.1 Filtrowanie w tabeli kontrahentow - Ulica</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce31e266-77d1-4399-9467-805b7f95f565</testCaseGuid>
+</TestCaseEntity>

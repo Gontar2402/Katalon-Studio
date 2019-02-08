@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_002.1 wyswietlenie rejestruj dokumentow przychodzacych</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4f70a05-a353-42a2-ae12-bcd4bf3d12eb</testCaseGuid>
+</TestCaseEntity>

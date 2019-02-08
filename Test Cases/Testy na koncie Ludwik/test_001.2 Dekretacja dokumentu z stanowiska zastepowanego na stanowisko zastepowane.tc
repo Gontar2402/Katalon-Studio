@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_001.2 Dekretacja dokumentu z stanowiska zastepowanego na stanowisko zastepowane</name>
+   <tag></tag>
+   <comment>test step jest wylaczony, ponieważ w tabeli jest tylko jeden element</comment>
+   <testCaseGuid>556d5623-1ece-4c07-adb2-705182980144</testCaseGuid>
+</TestCaseEntity>

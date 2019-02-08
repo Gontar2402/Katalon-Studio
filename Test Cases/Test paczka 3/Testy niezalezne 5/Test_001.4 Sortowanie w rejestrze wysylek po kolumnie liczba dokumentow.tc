@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_001.4 Sortowanie w rejestrze wysylek po kolumnie liczba dokumentow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49acac84-cea8-4e55-9a35-dcf3dfa775ae</testCaseGuid>
+</TestCaseEntity>

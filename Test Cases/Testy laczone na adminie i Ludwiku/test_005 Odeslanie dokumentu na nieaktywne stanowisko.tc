@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_005 Odeslanie dokumentu na nieaktywne stanowisko</name>
+   <tag>odsyłanie</tag>
+   <comment></comment>
+   <testCaseGuid>c9239db5-3b1f-4c25-b7cf-7e12f1040dd5</testCaseGuid>
+</TestCaseEntity>

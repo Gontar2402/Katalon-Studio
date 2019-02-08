@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_005.1 Dodanie i usuwanie adnotacji do dokumentu wewnetrznego</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05110070-d136-492d-a654-e0224da59be9</testCaseGuid>
+</TestCaseEntity>

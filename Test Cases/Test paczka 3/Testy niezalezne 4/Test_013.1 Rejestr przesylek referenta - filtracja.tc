@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_013.1 Rejestr przesylek referenta - filtracja</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6d8350c-59af-485e-b0a8-8df2cc2ba6f8</testCaseGuid>
+</TestCaseEntity>

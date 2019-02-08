@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_004.1 Odrzucenie dokumentu wychodzacego - przyczyna</name>
+   <tag></tag>
+   <comment>na windows slash ma być w lewo a na linux w prawo
+na windows slash ma być w lewo a na linux w prawo</comment>
+   <testCaseGuid>71a08229-9a03-42e6-9662-040f02acb260</testCaseGuid>
+</TestCaseEntity>

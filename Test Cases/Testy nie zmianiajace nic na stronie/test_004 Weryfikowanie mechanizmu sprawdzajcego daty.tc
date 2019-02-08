@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Weryfikowanie mechanizmu sprawdzającego daty. Sprawdza czy wyswietlaja sie wszystkie komunikaty jak popelni sie jakis blad przy wpisywaniu daty</description>
+   <name>test_004 Weryfikowanie mechanizmu sprawdzajcego daty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>183be732-c4f5-455b-8a3d-f1e72573da7b</testCaseGuid>
+</TestCaseEntity>

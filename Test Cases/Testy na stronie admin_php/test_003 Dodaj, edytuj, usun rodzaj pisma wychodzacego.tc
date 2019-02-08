@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>a) dodanie nowego pisma wychodzacego
+b) edytowanie pisma wychodzacego
+c) usuniecie stworzonegor pisma wychodzacego</description>
+   <name>test_003 Dodaj, edytuj, usun rodzaj pisma wychodzacego</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d9988a7-d733-44e3-8942-e3330f526878</testCaseGuid>
+</TestCaseEntity>

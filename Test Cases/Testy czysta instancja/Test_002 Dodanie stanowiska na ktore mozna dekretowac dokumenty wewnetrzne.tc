@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_002 Dodanie stanowiska na ktore mozna dekretowac dokumenty wewnetrzne</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c379ee8e-1d33-4fca-87a7-e70f4c3f4443</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_002.1 Odeslanie przesylki - metryka, powiadomienie</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e295e7ef-199b-4cad-af01-841a1ada1318</testCaseGuid>
+</TestCaseEntity>

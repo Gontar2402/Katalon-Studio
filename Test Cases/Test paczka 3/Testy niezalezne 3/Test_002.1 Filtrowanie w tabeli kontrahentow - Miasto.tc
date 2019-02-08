@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_002.1 Filtrowanie w tabeli kontrahentow - Miasto</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25090176-a1ad-4411-bb38-ed911fbefa7d</testCaseGuid>
+</TestCaseEntity>

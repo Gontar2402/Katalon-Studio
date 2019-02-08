@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Aby dekretowac przesylki nalezy najpier w rejestrze przsylek przedlozyc do dekretacji dla Adam Naczelny.
+Dekrementuje  przesylka a potem ja cofa z zadekretowanych dokumentow przychodzacych</description>
+   <name>test_006 Dekretowanie przesylki</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c03131d-43b8-42af-8d64-99c0ba0479a2</testCaseGuid>
+</TestCaseEntity>

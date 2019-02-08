@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_005.1 Usuwanie adresata z grupy kontrahentow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8d5a4d3-1ffa-43f0-b0fe-c782ec19b3e3</testCaseGuid>
+</TestCaseEntity>

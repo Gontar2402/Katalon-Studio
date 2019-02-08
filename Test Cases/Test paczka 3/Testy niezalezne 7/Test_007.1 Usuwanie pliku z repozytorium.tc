@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_007.1 Usuwanie pliku z repozytorium</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac7aa65c-cf22-4f40-808b-6f6c2eb2a139</testCaseGuid>
+</TestCaseEntity>

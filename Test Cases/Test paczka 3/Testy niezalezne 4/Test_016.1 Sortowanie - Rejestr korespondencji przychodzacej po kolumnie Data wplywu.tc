@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_016.1 Sortowanie - Rejestr korespondencji przychodzacej po kolumnie Data wplywu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef9d766c-dbe6-4fa3-840f-68732b255eff</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_008 Dekretacja, wycofanie dekretacji dokumentu przychodzacego - metryka</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a653fd0-d7d9-4eca-b2b6-1ab83ce8071f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_001 Utworzenie dokumentu wychodzacego i przekazanie do akceptacji</name>
+   <tag></tag>
+   <comment>na windows slash ma być w lewo a na linux w prawo
+na windows slash ma być w lewo a na linux w prawo</comment>
+   <testCaseGuid>39b63d5b-8167-4b69-b2c2-0e7398662f36</testCaseGuid>
+</TestCaseEntity>

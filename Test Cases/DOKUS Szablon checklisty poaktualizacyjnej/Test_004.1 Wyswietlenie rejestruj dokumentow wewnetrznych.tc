@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_004.1 Wyswietlenie rejestruj dokumentow wewnetrznych</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dbd3978d-bf19-4e8c-93fd-fa1c81daea02</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_002.1 Sortowanie w tabeli kontrahentow - Kod pocztowy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03ce50ad-9f40-472a-b97f-a71e9c6fa6e7</testCaseGuid>
+</TestCaseEntity>

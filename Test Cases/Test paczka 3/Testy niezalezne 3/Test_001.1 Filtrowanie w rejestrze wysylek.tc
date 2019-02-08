@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_001.1 Filtrowanie w rejestrze wysylek</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>627fb788-3e39-404d-b4f9-4ca1c0feb29c</testCaseGuid>
+</TestCaseEntity>

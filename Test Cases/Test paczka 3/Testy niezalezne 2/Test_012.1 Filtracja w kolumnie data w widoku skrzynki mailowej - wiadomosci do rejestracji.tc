@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_012.1 Filtracja w kolumnie data w widoku skrzynki mailowej - wiadomosci do rejestracji</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be494f66-a911-41af-af73-3916a42ba09d</testCaseGuid>
+</TestCaseEntity>

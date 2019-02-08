@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_006 Weryfikowanie nadawcy nowej przesylki</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8e51568-d73b-496e-b802-d698f69c0b3b</testCaseGuid>
+</TestCaseEntity>

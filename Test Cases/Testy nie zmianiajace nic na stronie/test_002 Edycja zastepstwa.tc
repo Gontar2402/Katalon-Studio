@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_002 Edycja zastepstwa</name>
+   <tag></tag>
+   <comment>edycja zastepstwa
+koniec edycji zastepstwa</comment>
+   <testCaseGuid>717fc924-5786-42c9-b990-e1fcef86f761</testCaseGuid>
+</TestCaseEntity>

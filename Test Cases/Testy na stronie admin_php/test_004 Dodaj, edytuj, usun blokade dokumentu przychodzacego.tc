@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>http://tsk6242.testy.hsi.pl/admin.php/
+Blokada Dokumentow -> dokumenty przychodzace
+a) Dodanie blokady na dokmunety przychodzacy 
+b) Edytowanie blokady na dokmunety przychodzacy 
+c) Usuniecie blokady na dokmunety przychodzacy</description>
+   <name>test_004 Dodaj, edytuj, usun blokade dokumentu przychodzacego</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5102920a-3aba-4468-8065-d54b3195c30f</testCaseGuid>
+</TestCaseEntity>

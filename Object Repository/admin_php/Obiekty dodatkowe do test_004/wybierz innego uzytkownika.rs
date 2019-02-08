@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>wybierz innego uzytkownika</name>
+   <tag></tag>
+   <elementGuidId>a8f2df43-5217-439c-b759-d77b3788bf48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='obi_blokada_dok_przy[iduzytkownik]']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>FormElement ui-widget-content ui-corner-all</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>obi_blokada_dok_przy[iduzytkownik]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>obi_blokada_dok_przy[iduzytkownik]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Beata Romanowicz (beata.romanowicz)(Brak nazwy) (tensoft)Alicja Woźniak (alicja.wozniak)Anna Borowska (anna.borowska)Grzegorz Taciak (grzegorz.taciak)Halina Topa (halina.topa)Jerzy Zatwarnicki (jerzy.zatwarnicki)Marta Tajs (marta.tajs)Romuald Puzyrewski (romuald.puzyrewski)Andrzej Kowalski (r.switala)Rafał Bartkowiak (r.bartkowiak)Bożena Kraszewska (bozena.kraszewska)Dorota Berk (dorota.berk)Dorota Daniluk (dorota.daniluk)Elżbieta Puczyńska (elzbieta.puczynska)Elżbieta Zduńczyk (elzbieta.zdunczyk)Ewa Moszczyńska (ewa.moszczynska)Irena Zuchowicz (irena.zuchowicz)Iwona Łuczyńska (iwona.luczynska)Iwona Sienkiewicz (iwona.sienkiewicz)Izabela Romanowska (izabela.romanowska)Jan Popielarz (jan.popielarz)Józef Orchowski (jozef.orchowski)Kamila Wojciechowska (kamila.wojciechowska)Karolina Łukasiak-Bialik (karolina.lukasiak)Katarzyna Bączek (katarzyna.baczek)Katarzyna Jańczyk (katarzyna.janczyk)Kararzyna Pirus (katarzyna.pirus)Lucyna Stawicka (lucyna.stawicka)Małgorzata Kacprzycka-Nowicka (malgorzata.kacprzycka)Marta Hinc (marta.hinc)Michał Wojciechowski (michal.wojciechowski)Monika Bogulak (monika.bogulak)Monika Spychalska (monika.spychalska)Natalia Żukiel-Gorszanow (natalia.zukiel)Patrycja Podlasz (patrycja.podlasz)Radosław Grochowalski (radoslaw.grochowalski)Adam Wojtaszek (adam.wojtaszek)Agnieszka Holak (agnieszka.holak)Beata Alchimowicz (beata.alchimowicz)arek adsadk (katalon2)Tadeusz Lis (tadeusz.lis)Bernadeta Niedzielska (bernadeta.niedzielska)Włodzimierz Ficek (wlodzimierz.ficek)Wojciech Parulski (wojciech.parulski)Wojciech Tułodziecki (wojciech.tulodziecki)Adam Naczelny (admin)Ludwik Bartoszewicz (ludwik.bartoszewicz)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;obi_blokada_dok_przy[iduzytkownik]&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//select[@id='obi_blokada_dok_przy[iduzytkownik]']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//tr[@id='tr_obi_blokada_dok_przy[iduzytkownik]']/td[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wybierz użytkownika'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edytuj rekord'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blokada podglądu'])[2]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aktywne'])[3]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//tr[3]/td[2]/select</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_026 Nie dubluja sie blokady wycofywania akceptacji</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d283cb5-95d0-417b-8ec7-1c3691731205</testCaseGuid>
+</TestCaseEntity>

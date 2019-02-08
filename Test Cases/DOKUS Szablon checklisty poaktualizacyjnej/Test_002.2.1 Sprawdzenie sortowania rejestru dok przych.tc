@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_002.2.1 Sprawdzenie sortowania rejestru dok przych</name>
+   <tag>sortowanie filtrowanie</tag>
+   <comment></comment>
+   <testCaseGuid>14a9645d-9efb-41bf-90c6-3624a866ea5a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_014.3 Rejestracja dwoch dok przych z tym samym tytulem</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>519b196c-4e1a-4170-be31-78b69cbeba9d</testCaseGuid>
+</TestCaseEntity>

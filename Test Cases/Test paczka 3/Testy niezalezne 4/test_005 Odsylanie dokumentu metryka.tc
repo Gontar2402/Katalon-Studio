@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_005 Odsylanie dokumentu metryka</name>
+   <tag>odsyłanie</tag>
+   <comment></comment>
+   <testCaseGuid>eae65b53-9daf-493b-9d69-f4f723bc2dd8</testCaseGuid>
+</TestCaseEntity>

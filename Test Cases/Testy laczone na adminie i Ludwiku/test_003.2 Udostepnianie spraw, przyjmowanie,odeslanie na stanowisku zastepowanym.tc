@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Udostepnianie spraw, przyjmowanie udostepnionej sprawy , odeslanie udostepnionej sprawy</description>
+   <name>test_003.2 Udostepnianie spraw, przyjmowanie,odeslanie na stanowisku zastepowanym</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2bbb33ff-1705-40d0-91e8-db194a0cca4e</testCaseGuid>
+</TestCaseEntity>

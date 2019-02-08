@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_006.2 Sprawdzanie poprawnosci dodania komentarza do akceptacji ost dok</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a01e2166-3f84-43b7-bf4a-3b9fc2cb410d</testCaseGuid>
+</TestCaseEntity>

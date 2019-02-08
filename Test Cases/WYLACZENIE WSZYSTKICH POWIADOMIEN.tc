@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WYLACZENIE WSZYSTKICH POWIADOMIEN</name>
+   <tag>sprawa dokument</tag>
+   <comment></comment>
+   <testCaseGuid>cf02aa47-d5b5-4a89-b0fe-efb3d7e848af</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>15415100-05ad-4f65-90c1-5e07b0b9d444</id>
+      <masked>false</masked>
+      <name>sciezka_testu</name>
+   </variable>
+</TestCaseEntity>

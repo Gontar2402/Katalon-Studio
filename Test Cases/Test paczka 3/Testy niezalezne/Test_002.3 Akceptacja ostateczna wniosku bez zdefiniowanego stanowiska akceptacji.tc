@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_002.3 Akceptacja ostateczna wniosku bez zdefiniowanego stanowiska akceptacji</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f10fe04b-6275-405e-805a-8ac9999e794b</testCaseGuid>
+</TestCaseEntity>

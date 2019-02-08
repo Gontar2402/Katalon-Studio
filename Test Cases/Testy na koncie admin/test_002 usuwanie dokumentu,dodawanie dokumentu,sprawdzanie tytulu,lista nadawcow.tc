@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Usuwanie dokumentu w rejestr korespondencji przychodzacej, proba usuniecia ze srodka,dodanie i sprawdzenie czy dodano pomyslnie z odpowienim nr, sprawdzanie tytulu, Lista proponowanych nadawcow</description>
+   <name>test_002 usuwanie dokumentu,dodawanie dokumentu,sprawdzanie tytulu,lista nadawcow</name>
+   <tag></tag>
+   <comment>powinien wyskoczyc alert, aby potwierdzic usuniecie
+sprawdzamy czy wyskoczyl blad i akceptujemy go
+Dokument został przedłożony do dekretacji lub zadekretowany i nie może być usunięty
+odrzucamy blad i rejestrujemy przesylke jeszcze raz
+generowanie losowego strina</comment>
+   <testCaseGuid>a74ff535-bfb5-4b26-b708-0fe83bc6e41d</testCaseGuid>
+</TestCaseEntity>
