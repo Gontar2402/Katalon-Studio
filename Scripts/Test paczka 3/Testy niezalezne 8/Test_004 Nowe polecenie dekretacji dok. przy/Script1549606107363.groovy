@@ -21,6 +21,39 @@ CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login
     15)
 
 'button Polecenia dekretacji dok. przy'
-CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[@id=\'obi_osoby_rodzaj_button_1\']/div']), 
+CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '(//div[@id=\'obi_osoby_rodzaj_button\']/div)[2]']), 
     15)
 
+'button Nowe polecenie'
+CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[@id=\'obi_dekretacja_dokin_sposob_realizacji_new_button\']/div']), 
+    15)
+
+CustomKeywords.'help_pack.wait_for_text.Present'('Nowe polecenie do dekretacji', 15)
+
+LosowePolecenie = ('Polecenie : ' + org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8))
+
+'Wpisujemy losowe polecenie'
+WebUI.setText(findTestObject('pole tekstowe', [('xpath') : '//input[@id=\'obi_dekretacja_dokin_sposob_realizacji_nazwa\']']), 
+    LosowePolecenie)
+
+'button Zapisz'
+CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//input[@id=\'btnDekretacjaDokInSposobRealizacjiSave\']']), 
+    15)
+
+'wyszukujemy w tabeli dodane polecenie'
+CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'nazwa\']']), 
+    LosowePolecenie)
+
+CustomKeywords.'help_pack.Wyloguj.wyloguj'()
+
+CustomKeywords.'help_pack.Logowanie.zaloguj'('romuald.puzyrewski', 'gqNiyN/IiIvaUo8G1BKwoQ==')
+
+CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Sprawy'), 
+    15)
+
+CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/podmenu Sprawy/Dokumenty'), 
+    15)
+
+'zmieniamy rodzaj dokumentu na przychodzący'
+WebUI.selectOptionByLabel(findTestObject('Wybierz opcje', [('xpath') : '//select[@name=\'rodzaj_dokumentu\']']), 'Przychodzący', false)
+Thread.sleep(300)
