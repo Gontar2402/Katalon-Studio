@@ -30,7 +30,7 @@ CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('
 
 CustomKeywords.'help_pack.wait_for_text.Present'('Nowe polecenie do dekretacji', 15)
 
-LosowePolecenie = ('Polecenie : ' + org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8))
+LosowePolecenie = ('ZPolecenie : ' + org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8))
 
 'Wpisujemy losowe polecenie'
 WebUI.setText(findTestObject('pole tekstowe', [('xpath') : '//input[@id=\'obi_dekretacja_dokin_sposob_realizacji_nazwa\']']), 
@@ -54,6 +54,19 @@ CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login
 CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/podmenu Sprawy/Dokumenty'), 
     15)
 
-'zmieniamy rodzaj dokumentu na przychodzący'
-WebUI.selectOptionByLabel(findTestObject('Wybierz opcje', [('xpath') : '//select[@name=\'rodzaj_dokumentu\']']), 'Przychodzący', false)
+'Wyszukujemy w tabeli odpowiedni dokument przychodzący'
+CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'tytul\']']), 
+    'testbydgoszcz2')
+
+'button Dekretuj'
+CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[@id=\'obi_topmenu_dekretacja_dokumentu_actions_dekretuj\']/div']), 
+    15)
+
 Thread.sleep(300)
+
+CustomKeywords.'help_pack.wait_for_text.not_Present'('Wczytywanie danych...', 15)
+
+'Zmieniamy polecenie na nowo utworzone'
+WebUI.selectOptionByLabel(findTestObject('Wybierz opcje', [('xpath') : '//select[@id=\'frmDekretacjaDokumentuSposobRealizacji\']']), 
+    LosowePolecenie, false)
+
