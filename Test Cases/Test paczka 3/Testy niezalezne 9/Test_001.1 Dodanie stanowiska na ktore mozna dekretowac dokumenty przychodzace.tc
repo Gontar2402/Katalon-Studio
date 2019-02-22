@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_001.1 Dodanie stanowiska na ktore mozna dekretowac dokumenty przychodzace</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5dc542f1-b258-49a0-9059-9859232ecbe8</testCaseGuid>
+</TestCaseEntity>

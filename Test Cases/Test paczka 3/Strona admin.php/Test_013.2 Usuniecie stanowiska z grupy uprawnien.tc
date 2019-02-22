@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_013.2 Usuniecie stanowiska z grupy uprawnien</name>
+   <tag></tag>
+   <comment>Sprawdzamy czy osoba dodała się w tabeli Stanowiska grupy
+Sprawdzamy czy osoba dodała się w tabeli Grupy stanowiska</comment>
+   <testCaseGuid>b575a27c-a04e-4578-857b-624bfcef212e</testCaseGuid>
+</TestCaseEntity>

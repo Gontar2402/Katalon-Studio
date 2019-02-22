@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_001.5 Usuniecie stanowiska na ktore mozna dekretowac dokumenty wewnetrzne</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97a18dc7-712d-47aa-b816-5244743449a3</testCaseGuid>
+</TestCaseEntity>

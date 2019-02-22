@@ -87,7 +87,7 @@ public class GlobalVariable {
     static {
         def allVariables = [:]        
         allVariables.put('default', ['Global_variable_login' : 'admin', 'Global_variable_password' : 'NPnhp8lbvIHTcBx1PsaVyg==', 'Url' : findTestData('Adres_strony').getValue(1, 2), 'Url_admin' : findTestData('Adres_strony_admin.php').getValue(1, 2), 'Url_przeladowanie' : findTestData('Adres_strony').getValue(1, 3), 'losowa_nazwa' : null, 'data' : null, 'data_dzien_wczesniej' : null, 'zmienna_pomocna' : null, 'Znak_sprawy' : null, 'Nazwa_sprawy' : '', 'skrot_PK' : '', 'Nazwa_dokumentu_wew' : null, 'Url_archiwum' : findTestData('Adres_strony').getValue(1, 3)])
-        allVariables.put('Url', allVariables['default'] + ['Global_variable_login' : 'admin', 'Global_variable_password' : 'NPnhp8lbvIHTcBx1PsaVyg==', 'Url' : null, 'Url_admin' : null, 'losowa_nazwa' : null, 'data' : null, 'data_dzien_wczesniej' : null, 'zmienna_pomocna' : null, 'Znak_sprawy' : null, 'Nazwa_sprawy' : '', 'skrot_PK' : '', 'Nazwa_dokumentu_wew' : null, 'Url_archiwum' : null])
+        allVariables.put('Url', ['Global_variable_login' : 'admin', 'Global_variable_password' : 'NPnhp8lbvIHTcBx1PsaVyg==', 'Url' : null, 'Url_admin' : null, 'losowa_nazwa' : null, 'data' : null, 'data_dzien_wczesniej' : null, 'zmienna_pomocna' : null, 'Znak_sprawy' : null, 'Nazwa_sprawy' : '', 'skrot_PK' : '', 'Nazwa_dokumentu_wew' : null, 'Url_archiwum' : null])
         
         String profileName = RunConfiguration.getExecutionProfile()
         def selectedVariables = allVariables[profileName]

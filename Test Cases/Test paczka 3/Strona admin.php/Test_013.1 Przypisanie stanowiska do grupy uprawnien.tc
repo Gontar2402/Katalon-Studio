@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_013.1 Przypisanie stanowiska do grupy uprawnien</name>
+   <tag></tag>
+   <comment>Sprawdzamy czy osoba dodała się w tabeli Stanowiska grupy
+Sprawdzamy czy osoba dodała się w tabeli Grupy stanowiska</comment>
+   <testCaseGuid>f4e47c1d-c270-4381-b85d-a38e3dd6d226</testCaseGuid>
+</TestCaseEntity>
