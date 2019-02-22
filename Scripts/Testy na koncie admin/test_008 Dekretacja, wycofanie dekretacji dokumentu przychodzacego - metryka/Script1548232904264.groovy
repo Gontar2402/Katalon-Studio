@@ -19,7 +19,8 @@ CustomKeywords.'help_pack.Logowanie.zaloguj'('admin', 'gqNiyN/IiIvaUo8G1BKwoQ=='
 
 tworzenie_dokumentu_przychodzacego()
 
-CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz_z_polem.set_text'(GlobalVariable.losowa_nazwa, 3)
+CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'opis\']']), 
+    GlobalVariable.losowa_nazwa)
 
 'button Przedłóż do dekretacji'
 CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[@id=\'obi_topmenu_dokumenty_actions_przekaz_do_dekretacji\']/div']), 
@@ -117,16 +118,16 @@ def sprawdz_metryke() {
     CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[11]/div/button/span']), 
         15)
 }
+
 def sprawdz_metryke_cofniecia() {
-	new help_pack.Wait_and_click().Clickable(findTestObject('hsi_pl_login/Obiekty powtarzalne/button szczegoly uniwersalny'),
-		5)
+    new help_pack.Wait_and_click().Clickable(findTestObject('hsi_pl_login/Obiekty powtarzalne/button szczegoly uniwersalny'), 
+        5)
 
-	new help_pack.Wait_and_click().Clickable(findTestObject('hsi_pl_login/Obiekty powtarzalne/zakladka Metryka w szczegolach'),
-		5)
+    new help_pack.Wait_and_click().Clickable(findTestObject('hsi_pl_login/Obiekty powtarzalne/zakladka Metryka w szczegolach'), 
+        5)
 
-	new help_pack.wait_for_text().Present('Cofnięcie operacji typu: Przedłożenie', 15)
+    new help_pack.wait_for_text().Present('Cofnięcie operacji typu: Przedłożenie', 15)
 
-	new help_pack.wait_for_text().Present('Administrator EZD (Adam Naczelny)', 15)
-
-	
+    new help_pack.wait_for_text().Present('Administrator EZD (Adam Naczelny)', 15)
 }
+

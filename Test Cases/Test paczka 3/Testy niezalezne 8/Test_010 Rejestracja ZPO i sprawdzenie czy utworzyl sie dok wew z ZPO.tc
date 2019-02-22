@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_010 Rejestracja ZPO i sprawdzenie czy utworzyl sie dok wew z ZPO</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc5ef4b6-0777-4ee5-8796-758baaa375c4</testCaseGuid>
+</TestCaseEntity>

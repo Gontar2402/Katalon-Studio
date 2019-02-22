@@ -45,8 +45,7 @@ WebUI.click(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test
 
 CustomKeywords.'help_pack.wait_for_text.not_Present'('Trwa ładowanie', 5)
 
-WebUI.setText(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/do pola Nazwisko'), 
-    'Kowalski')
+WebUI.setText(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/do pola Nazwisko'), 'Kowalski')
 
 CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/pole pod forumlarzem aby pokaza kontrahenta '), 
     5)
@@ -58,8 +57,7 @@ CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login
 
 WebUI.delay(1)
 
-CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty powtarzalne/button_OK2'), 
-    5)
+CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty powtarzalne/button_OK2'), 5)
 
 CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/rowzin menu'), 
     5)
@@ -68,6 +66,6 @@ WebUI.click(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test
 
 WebUI.click(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/zapisz nowy dokument przychodzacy'))
 
-
-CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz_z_polem.set_text'(GlobalVariable.losowa_nazwa, 3)
+CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'opis\']']), 
+    GlobalVariable.losowa_nazwa)
 

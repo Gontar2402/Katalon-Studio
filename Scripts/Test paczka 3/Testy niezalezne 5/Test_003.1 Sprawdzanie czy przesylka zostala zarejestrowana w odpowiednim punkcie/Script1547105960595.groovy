@@ -26,7 +26,7 @@ CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login
 rejestracja_nowej_przesylki()
 
 'Pobieranie aktualnego punktu kancelaryjnego'
-punkt_kancelaryjny = WebUI.getText(findTestObject('tabela', [('xpath') : '//td[5]']))
+punkt_kancelaryjny = WebUI.getText(findTestObject('tabela', [('xpath') : '//td[6]']))
 
 assert punkt_kancelaryjny == 'ESOD'
 
@@ -44,10 +44,11 @@ CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('
     15)
 
 'wyszukaj w tabeli przesyłkę'
-CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz_z_polem.set_text'(GlobalVariable.losowa_nazwa, 3)
+CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'opis\']']), 
+    GlobalVariable.losowa_nazwa)
 
 'Pobieranie aktualnego punktu kancelaryjnego'
-punkt_kancelaryjny_po_przeniesieniu = WebUI.getText(findTestObject('tabela', [('xpath') : '//td[5]']))
+punkt_kancelaryjny_po_przeniesieniu = WebUI.getText(findTestObject('tabela', [('xpath') : '//td[6]']))
 
 assert punkt_kancelaryjny_po_przeniesieniu != punkt_kancelaryjny
 
@@ -80,8 +81,7 @@ def rejestracja_nowej_przesylki() {
 
     CustomKeywords.'help_pack.wait_for_text.not_Present'('Trwa ładowanie', 5)
 
-    WebUI.setText(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/do pola Nazwisko'), 
-        'Kowalski')
+    WebUI.setText(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/do pola Nazwisko'), 'Kowalski')
 
     CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/pole pod forumlarzem aby pokaza kontrahenta '), 
         5)
@@ -93,8 +93,7 @@ def rejestracja_nowej_przesylki() {
 
     WebUI.delay(1)
 
-    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty powtarzalne/button_OK2'), 
-        5)
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty powtarzalne/button_OK2'), 5)
 
     CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/rowzin menu'), 
         5)
@@ -103,7 +102,8 @@ def rejestracja_nowej_przesylki() {
 
     WebUI.click(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/zapisz nowy dokument przychodzacy'))
 
-    CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz_z_polem.set_text'(GlobalVariable.losowa_nazwa, 
-        3)
+    'wyszukaj w tabeli przesyłkę'
+    CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'opis\']']), 
+        GlobalVariable.losowa_nazwa)
 }
 

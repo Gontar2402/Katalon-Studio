@@ -31,7 +31,8 @@ zakladanie_przesylki_nr_1()
 zakladanie_przesylki_z_taka_sama_nazwa()
 
 'wyszukaj w tabeli zarejestrowane przesyłki'
-CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz_z_polem.set_text'(GlobalVariable.losowa_nazwa, 3)
+CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'opis\']']), 
+    GlobalVariable.losowa_nazwa)
 
 'sprawdza czy wyszukało 2 dokumenty o takim samym tytule'
 CustomKeywords.'help_pack.wait_for_text.Present'('Pozycje od 1 do 2 z 2 łącznie', 15)
@@ -78,8 +79,7 @@ def zakladanie_przesylki_nr_1() {
 
     CustomKeywords.'help_pack.wait_for_text.not_Present'('Trwa ładowanie', 25)
 
-    WebUI.setText(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/do pola Nazwisko'), 
-        'Kowalski')
+    WebUI.setText(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/do pola Nazwisko'), 'Kowalski')
 
     CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/pole pod forumlarzem aby pokaza kontrahenta '), 
         5)
@@ -91,8 +91,7 @@ def zakladanie_przesylki_nr_1() {
 
     WebUI.delay(1)
 
-    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty powtarzalne/button_OK2'), 
-        5)
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty powtarzalne/button_OK2'), 5)
 
     CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/rowzin menu'), 
         5)
@@ -129,10 +128,10 @@ def zakladanie_przesylki_z_taka_sama_nazwa() {
 
     CustomKeywords.'help_pack.wait_for_text.not_Present'('Trwa ładowanie', 25)
 
-    WebUI.setText(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/do pola Nazwisko'), 
-        'Damjan')
+    WebUI.setText(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/do pola Nazwisko'), 'Damjan')
 
-    WebUI.sendKeys(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/do pola Nazwisko'), Keys.chord(Keys.TAB))
+    WebUI.sendKeys(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/do pola Nazwisko'), Keys.chord(
+            Keys.TAB))
 
     CustomKeywords.'help_pack.wait_for_text.not_Present'('Proszę czekać...', 25)
 
@@ -141,8 +140,7 @@ def zakladanie_przesylki_z_taka_sama_nazwa() {
 
     WebUI.delay(1)
 
-    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty powtarzalne/button_OK2'), 
-        5)
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty powtarzalne/button_OK2'), 5)
 
     CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/rowzin menu'), 
         5)

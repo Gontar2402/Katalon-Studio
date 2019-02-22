@@ -77,7 +77,7 @@ CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login
 WebUI.click(findTestObject('hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_005/button szczegoly'))
 
 WebUI.click(findTestObject('hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_005/zakladka metryka'))
-
+Thread.sleep(400)
 def porownaj = WebUI.getText(findTestObject('hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_005/ostatnia czynnosc'))
 
 assert porownaj == 'Przedłożenie i dekretacja w trybie dekretacji uproszczonej; na: St. insp. fin-księgowy (Irena Zuchowicz); tryb: Wiodąca'
@@ -93,5 +93,6 @@ CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login
 
 CustomKeywords.'help_pack.wait_for_text.not_Present'('Proszę czekać...', 15)
 
-CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz_z_polem.set_text'('dekretacja automatyczna' + losowa_nazwa, 3)
+CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'opis\']']), 
+    'dekretacja automatyczna' + losowa_nazwa)
 

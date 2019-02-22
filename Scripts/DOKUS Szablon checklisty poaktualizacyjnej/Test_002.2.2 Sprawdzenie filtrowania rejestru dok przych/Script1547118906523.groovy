@@ -25,8 +25,6 @@ WebUI.click(findTestObject('hsi_pl_login/Menu glowne belka gorna/podmenu Kancela
 
 CustomKeywords.'help_pack.wait_for_text.Present'('Rejestr korespondencji przychodzącej', 10)
 
-CustomKeywords.'help_pack.Filtruj.pobieranie_danych_do_filtrowania_oraz_filtrowanie'(1, 4)
-
 CustomKeywords.'help_pack.Filtruj.pobieranie_danych_do_filtrowania_oraz_filtrowanie'(2, 4)
 
 CustomKeywords.'help_pack.Filtruj.pobieranie_danych_do_filtrowania_oraz_filtrowanie'(3, 4)
@@ -35,7 +33,7 @@ CustomKeywords.'help_pack.Filtruj.pobieranie_danych_do_filtrowania_oraz_filtrowa
 
 CustomKeywords.'help_pack.Filtruj.pobieranie_danych_do_filtrowania_oraz_filtrowanie'(5, 4)
 
-CustomKeywords.'help_pack.Filtruj.pobieranie_danych_do_filtrowania_oraz_filtrowanie'(7, 4)
+CustomKeywords.'help_pack.Filtruj.pobieranie_danych_do_filtrowania_oraz_filtrowanie'(6, 4)
 
 CustomKeywords.'help_pack.Filtruj.pobieranie_danych_do_filtrowania_oraz_filtrowanie'(8, 4)
 

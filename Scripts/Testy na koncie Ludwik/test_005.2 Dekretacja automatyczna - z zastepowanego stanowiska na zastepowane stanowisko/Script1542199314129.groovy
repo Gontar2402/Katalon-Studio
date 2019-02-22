@@ -76,7 +76,7 @@ WebUI.click(findTestObject('hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do tes
 WebUI.click(findTestObject('hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_005/button szczegoly'))
 
 WebUI.click(findTestObject('hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_005/zakladka metryka'))
-
+Thread.sleep(400)
 def porownaj = WebUI.getText(findTestObject('hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_005/ostatnia czynnosc'))
 
 assert porownaj == 'Przedłożenie i dekretacja w trybie dekretacji uproszczonej; na: Radca prawny (Ludwik Bartoszewicz za: Beata Romanowicz); tryb: Wiodąca'

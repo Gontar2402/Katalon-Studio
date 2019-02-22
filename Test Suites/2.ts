@@ -11,9 +11,9 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>4441d983-c6e1-449f-9e4d-a277500d52fa</testSuiteGuid>
    <testCaseLink>
-      <guid>6e8a10c8-3a59-43fb-95b3-384efd5c1a5b</guid>
+      <guid>83eba729-5702-497e-a305-4ec33bb8114a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test paczka 3/Testy niezalezne/dodawanie pliku Test_004.1 Dodanie dokumentu wychodzacego do sprawy udostepnionej</testCaseId>
+      <testCaseId>Test Cases/Test paczka 3/Testy niezalezne 8/Test_010.1 Rejestracja zwrotki i sprawdzenie czy utworzyl sie dok wew z ZPO</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

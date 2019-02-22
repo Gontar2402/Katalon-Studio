@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Test_001 sortowanie i zwiekszanie wynikow do 25</name>
-   <tag></tag>
-   <comment>Call custom keyword in katalon Studio.</comment>
-   <testCaseGuid>60345d9d-c154-4e7c-b875-6e1eea8edb32</testCaseGuid>
-</TestCaseEntity>

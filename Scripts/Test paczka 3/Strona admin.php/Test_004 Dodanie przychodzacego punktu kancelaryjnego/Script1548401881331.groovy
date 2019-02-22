@@ -54,7 +54,8 @@ CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login
 'czekaj na załadowanie tabeli'
 CustomKeywords.'help_pack.wait_for_text.Present'('Rejestr korespondencji przychodzącej', 15)
 
-CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz_z_polem.set_text'('ESOD', 5)
+CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'pkp\']']), 
+    'ESOD')
 
 'button przenieś do innego PK'
 CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[@id=\'obi_topmenu_dokumenty_actions_przenies_do_pk\']/div']), 
@@ -75,7 +76,10 @@ CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button text'
 CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[11]/div/button[2]/span']), 
     15)
 
-CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz_z_polem.set_text'(skrot_PK, 5)
+CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'pkp\']']), 
+    skrot_PK)
+
+
 
 CustomKeywords.'help_pack.metryka_sprawdz_statna_czynnosc.sprawdz_informacje'('Przeniesienie dokumentu między punktami kancelaryjnymi', 
     'Administrator EZD (Adam Naczelny)')

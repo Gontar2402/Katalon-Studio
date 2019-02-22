@@ -17,32 +17,5 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'help_pack.Wyloguj.wyloguj'()
-
-CustomKeywords.'help_pack.Logowanie.zaloguj'('admin', 'gqNiyN/IiIvaUo8G1BKwoQ==')
-
-CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Sprawy'), 
-    15)
-
-CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/podmenu Sprawy/Dokumenty'), 
-    15)
-
-CustomKeywords.'help_pack.wait_for_text.Present'('Dokumenty bieżące', 15)
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-
-'To locate table'
-WebElement Table = driver.findElement(By.xpath('//table/tbody'))
-
-'To locate rows of table it will Capture all the rows available in the table'
-List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
-List<WebElement> columns_table = Table.findElements(By.tagName('td'))
-'To calculate no of rows In table'
-int rows_count = rows_table.size()
-int columns_row = columns_table.size()
-println(rows_count)
-println(columns_row)
-
-
+not_run: Runtime.runtime.exec('C:\\Program Files\\SmartBear\\SoapUI-5.4.0\\bin\\SoapUI-5.4.0.exe')
 

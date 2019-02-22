@@ -20,13 +20,9 @@ CustomKeywords.'help_pack.Wyloguj.wyloguj'()
 
 CustomKeywords.'help_pack.Logowanie.zaloguj'('admin', 'gqNiyN/IiIvaUo8G1BKwoQ==')
 
-nazwa = new TestObject('asdsadasd')
 
-nazwa.addProperty('xpath', ConditionType.EQUALS, '//li[4]/a\'', true)
-
-CustomKeywords.'help_pack.Click_element_on_web.by_xpath'(findTestObject(nazwa), '//li[4]/a', 5)
 
 CustomKeywords.'help_pack.Wait_and_click.Clickable'(nazwa, 5)
 
-CustomKeywords.'help_pack.Wait_and_click.Clickable'(MySelectors.getMyTestObject("xpath", xpath), 0)
+
 

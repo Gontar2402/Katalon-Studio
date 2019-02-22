@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_012 Sortowanie i filtrowanie rodzajow dokumentow przychodzacych po kolumnie rodzaj nadrzedny</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9e3df10-84b1-46c2-b2c8-c2f1ed1d8197</testCaseGuid>
+</TestCaseEntity>

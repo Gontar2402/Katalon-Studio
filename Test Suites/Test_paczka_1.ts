@@ -286,10 +286,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test paczka 3/Testy niezalezne 5/Test_006.2 Sprawdzanie poprawnosci dodania komentarza do akceptacji ost dok</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>fb3cf684-8f3c-4263-a524-f630c41bf686</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Testy nie zmianiajace nic na stronie/Test_001 sortowanie i zwiekszanie wynikow do 25</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

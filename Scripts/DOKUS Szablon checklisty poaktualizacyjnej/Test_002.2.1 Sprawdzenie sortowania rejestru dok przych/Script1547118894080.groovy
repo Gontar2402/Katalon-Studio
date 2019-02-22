@@ -25,7 +25,7 @@ WebUI.click(findTestObject('hsi_pl_login/Menu glowne belka gorna/podmenu Kancela
 
 CustomKeywords.'help_pack.wait_for_text.Present'('Rejestr korespondencji przychodzącej', 10)
 
-CustomKeywords.'help_pack.Sortowanie_tabeli.Sortowanie'(1, 11, 3)
+CustomKeywords.'help_pack.Sortowanie_tabeli.Sortowanie'(2, 11, 3)
 
 liczba_pozycji()
 

@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\Tecra\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Test paczka 3\\Strona admin.php\\Test_011 Nowy wiersz w stanowiskach uzytkownika\\20190214_112229\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\Tecra\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Test paczka 3\\Testy niezalezne 8\\Test_015 Sprawdzenie rodzajow powiadomien\\20190219_091650\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Test paczka 3/Strona admin.php/Test_011 Nowy wiersz w stanowiskach uzytkownika', new TestCaseBinding('Test Cases/Test paczka 3/Strona admin.php/Test_011 Nowy wiersz w stanowiskach uzytkownika',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Test paczka 3/Testy niezalezne 8/Test_015 Sprawdzenie rodzajow powiadomien', new TestCaseBinding('Test Cases/Test paczka 3/Testy niezalezne 8/Test_015 Sprawdzenie rodzajow powiadomien',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
