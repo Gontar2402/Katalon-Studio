@@ -31,33 +31,107 @@ CustomKeywords.'help_pack.wait_for_text.not_Present'('Proszę czekać...', 15)
 
 tworzenie_nowego_rodzaju_dkoumentu_przychodzacego()
 
-CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz_z_polem.set_text'(GlobalVariable.zmienna_pomocna, 
-    2)
+UtworzNowyDokumentZNowoUtworzonymRodzajem()
+
+WebUI.comment('Sprawdź czy utworzony dokument ma odpowiedni rodzaj')
+
+'Kliknij butto szczegóły'
+CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[@id=\'obi_topmenu_dokumenty_actions_pelna_informacja\']/div']), 
+    15)
+
+CustomKeywords.'help_pack.wait_for_text.Present'(LosowyRodzajDokuemntu, 15)
 
 def tworzenie_nowego_rodzaju_dkoumentu_przychodzacego() {
-    GlobalVariable.zmienna_pomocna = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8)
+    LosowyRodzajDokuemntu = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8)
 
-    WebUI.setText(findTestObject('pole tekstowe', [('xpath') : '//td/input']), GlobalVariable.zmienna_pomocna)
+    WebUI.setText(findTestObject('pole tekstowe', [('xpath') : '//td/input']), LosowyRodzajDokuemntu)
 
-    'Zmień rodzaj atrybutów'
-    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div/div/input']), 15)
+    'Zmień rodzaj nadrzędny'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//input[@value=\'Zmień\']']), 
+        15)
 
-    'Odpowiedni atrybut'
-    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div/ul/li[9]/a']), 15)
+    'Kliknij rodzaj atrybutu Media / publikacje'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button text', [('text') : ' Media / publikacje']), 
+        15)
 
     'OK'
     CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[3]/div/button/span']), 
         15)
 
-    'Zmień zestaw atrybutów'
-    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//tr[3]/td/div/div/input']), 
-        15)
-
-    'Odpowiedni atrybut'
-    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[2]/div/div[2]/table/tbody/tr/td[2]']), 
-        15)
-
     'Utwórz i zamknij'
     CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//input[3]']), 15)
+
+    CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz_z_polem.set_text'(LosowyRodzajDokuemntu, 2)
+}
+
+def UtworzNowyDokumentZNowoUtworzonymRodzajem() {
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Kancelaria'), 
+        15)
+
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/podmenu Kancelaria/Rejestr koresp.przychodzacej'), 
+        15)
+
+    'button Zarejestruj nową przesyłkę'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[@id=\'obi_dokumenty_nowy_button\']/div']), 
+        15)
+
+    'ikona odblokuj możliwość edycji tytułu'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//label/span']), 15)
+
+    GlobalVariable.losowa_nazwa = ('Rejestracja przesylki ' + org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(
+        8))
+
+    'wpisz do pola tytuł'
+    WebUI.setText(findTestObject('pole tekstowe', [('xpath') : '//input[@id=\'obi_dokumenty_opis\']']), GlobalVariable.losowa_nazwa)
+
+    'pole Data pisma'
+    WebUI.setText(findTestObject('pole tekstowe', [('xpath') : '//input[@id=\'obi_dokumenty_data_pisma\']']), '2018-12-31')
+
+    'pole Data wpływu'
+    WebUI.setText(findTestObject('pole tekstowe', [('xpath') : '//input[@id=\'obi_dokumenty_data_wplyniecia\']']), '2018-12-31')
+
+    'button Wybierz Rodzaj dokumentu'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '(//input[@value=\'Wybierz\'])[3]']), 
+        15)
+
+    'Kliknij rodzaj atrybutu Media / publikacje'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button text', [('text') : ' Media / publikacje']), 
+        15)
+
+    'Kliknij utworzony rodzaj dokumentu o losowej nazwie'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button text', [('text') : LosowyRodzajDokuemntu]), 
+        15)
+
+    'OK'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[3]/div/button/span']), 
+        15)
+
+    WebUI.click(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/zakladka Nadawca'))
+
+    CustomKeywords.'help_pack.wait_for_text.not_Present'('Trwa ładowanie', 5)
+
+    WebUI.setText(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/do pola Nazwisko'), 'Kowalski')
+
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/pole pod forumlarzem aby pokaza kontrahenta '), 
+        5)
+
+    CustomKeywords.'help_pack.wait_for_text.not_Present'('Proszę czekać...', 15)
+
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/Proponowany kontrahent ktorego szukamy'), 
+        5)
+
+    WebUI.delay(1)
+
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty powtarzalne/button_OK2'), 5)
+
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/rowzin menu'), 
+        5)
+
+    WebUI.click(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/Pelne odwzoraowanie cyfrowe'))
+
+    WebUI.click(findTestObject('hsi_pl_login/Obiekty Admin/Obiekty dodatkowe do test_002/zapisz nowy dokument przychodzacy'))
+
+    CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'opis\']']), 
+        GlobalVariable.losowa_nazwa)
 }
 

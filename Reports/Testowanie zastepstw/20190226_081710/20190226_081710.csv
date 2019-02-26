@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Testowanie zastepstw,,,2019-02-26 08:17:25,2019-02-26 08:17:41,"16,105s",FAILED
+,,,,,,
+Test Cases/Testy jeden po drugim zastepstwa/Test_002.1 Nowe zastepstwo,,,2019-02-26 08:17:28,2019-02-26 08:17:36,"8,367s",FAILED
+Start listener action : sampleBeforeTestCase,,,2019-02-26 08:17:28,2019-02-26 08:17:35,"6,568s",ERROR
+help_pack.Wyloguj.wyloguj(),,,2019-02-26 08:17:36,2019-02-26 08:17:36,"0,186s",FAILED
+,,,,,,
+Test Cases/Testy jeden po drugim zastepstwa/Test_003.3 Akceptacja zastepstwa,,,2019-02-26 08:17:36,2019-02-26 08:17:38,"2,186s",FAILED
+Start listener action : sampleBeforeTestCase,,,2019-02-26 08:17:36,2019-02-26 08:17:37,"0,309s",ERROR
+help_pack.Wyloguj.wyloguj(),,,2019-02-26 08:17:38,2019-02-26 08:17:38,"0,002s",NOT_RUN
+"help_pack.Logowanie.zaloguj(""admin"", ""gqNiyN/IiIvaUo8G1BKwoQ=="")",,,2019-02-26 08:17:38,2019-02-26 08:17:38,"0,000s",NOT_RUN
+TworzenieZastepstwa(),,,2019-02-26 08:17:38,2019-02-26 08:17:38,"0,000s",NOT_RUN
+help_pack.Wyloguj.wyloguj(),,,2019-02-26 08:17:38,2019-02-26 08:17:38,"0,078s",FAILED
+,,,,,,
+Test Cases/Testy jeden po drugim zastepstwa/Test_003.4 Aktywacja zastepstwa,,,2019-02-26 08:17:38,2019-02-26 08:17:40,"2,119s",FAILED
+Start listener action : sampleBeforeTestCase,,,2019-02-26 08:17:38,2019-02-26 08:17:39,"0,281s",ERROR
+help_pack.Wyloguj.wyloguj(),,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,015s",NOT_RUN
+"help_pack.Logowanie.zaloguj(""admin"", ""gqNiyN/IiIvaUo8G1BKwoQ=="")",,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,016s",NOT_RUN
+TworzenieZastepstwa(),,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,000s",NOT_RUN
+help_pack.Wyloguj.wyloguj(),,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,015s",NOT_RUN
+"help_pack.Logowanie.zaloguj(""anna.borowska"", ""gqNiyN/IiIvaUo8G1BKwoQ=="")",,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,000s",NOT_RUN
+AkceptacjaNaKoncieAnnaBorowska(),,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,000s",NOT_RUN
+help_pack.Wyloguj.wyloguj(),,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,016s",NOT_RUN
+"help_pack.Logowanie.zaloguj(""romuald.puzyrewski"", ""gqNiyN/IiIvaUo8G1BKwoQ=="")",,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,000s",NOT_RUN
+AkceptacjaNaKoncieRomualdPuzyrewski(),,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,015s",NOT_RUN
+help_pack.Wyloguj.wyloguj(),,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,016s",NOT_RUN
+"help_pack.Logowanie.zaloguj(""ludwik.bartoszewicz"", ""gqNiyN/IiIvaUo8G1BKwoQ=="")",,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,016s",NOT_RUN
+AkceptacjaNaKoncieLudwikBartoszewicz(),,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,000s",NOT_RUN
+SprawdzCzyJestAkceptacja(),,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,015s",NOT_RUN
+AktywacjaZastepstwa(),,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,000s",PASSED
+help_pack.Wyloguj.wyloguj(),,,2019-02-26 08:17:40,2019-02-26 08:17:40,"0,078s",FAILED

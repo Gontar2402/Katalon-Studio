@@ -1,0 +1,1978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testowanie zastepstw" time="139" tests="2" failures="0" errors="1">
+   <testsuite name="Testowanie zastepstw" tests="2" failures="0" errors="1" time="139" timestamp="2019-02-26 08:14:18" hostname="Tecra - DESKTOP-TDSJ81C" id="Test Suites/Testowanie zastepstw">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Tecra\\git\\Katalon-Studio_final\\Reports\\Testowanie zastepstw\\20190226_081404"/>
+         <property name="logFiles" value="C:\\Users\\Tecra\\git\\Katalon-Studio_final\\Reports\\Testowanie zastepstw\\20190226_081404\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Tecra - DESKTOP-TDSJ81C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.4.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.99.1"/>
+         <property name="sessionId" value="9882a2363fdedecce7114c45fb95b399"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Testy jeden po drugim zastepstwa/Test_002.1 Nowe zastepstwo" classname="Test Cases/Testy jeden po drugim zastepstwa/Test_002.1 Nowe zastepstwo" status="PASSED">
+         <system-out><![CDATA[2019-02-26 08:14:21 - [TEST_CASE][PASSED] - Test Cases/Testy jeden po drugim zastepstwa/Test_002.1 Nowe zastepstwo: Test Cases/Testy jeden po drugim zastepstwa/Test_002.1 Nowe zastepstwo
+
+2019-02-26 08:14:21 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Pomoc_w_test_suite.sampleBeforeTestCase(...)' completed.
+
+2019-02-26 08:14:21 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Pomoc_w_test_suite.sampleBeforeTestCase(...)'
+
+2019-02-26 08:14:21 - [TEST_STEP][PASSED] - url = getUrl(OPTIONAL): Current window's url is: 'http://tsk6365.testy.hsi.pl/'
+
+2019-02-26 08:14:25 - [MESSAGE][INFO] - Getting current window's url
+
+2019-02-26 08:14:29 - [MESSAGE][PASSED] - Current window's url is: 'http://tsk6365.testy.hsi.pl/'
+
+2019-02-26 08:14:29 - [TEST_STEP][PASSED] - if (url == null): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Pomoc_w_test_suite.sampleBeforeTestCase(...)' completed.
+
+2019-02-26 08:14:29 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Pomoc_w_test_suite.sampleBeforeTestCase(...)' completed.
+
+2019-02-26 08:14:30 - [TEST_STEP][PASSED] - help_pack.Wyloguj.wyloguj(): help_pack.Wyloguj.wyloguj is PASSED
+
+2019-02-26 08:14:30 - [MESSAGE][INFO] - Checking url
+
+2019-02-26 08:14:30 - [MESSAGE][INFO] - Navigating to 'http://tsk6365.testy.hsi.pl/login'
+
+2019-02-26 08:14:31 - [MESSAGE][PASSED] - Navigate to 'http://tsk6365.testy.hsi.pl/login' successfully
+
+2019-02-26 08:14:31 - [MESSAGE][PASSED] - help_pack.Wyloguj.wyloguj is PASSED
+
+2019-02-26 08:14:31 - [TEST_STEP][PASSED] - help_pack.Logowanie.zaloguj("admin", "gqNiyN/IiIvaUo8G1BKwoQ=="): help_pack.Logowanie.zaloguj is PASSED
+
+2019-02-26 08:14:31 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:14:31 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:14:31 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:14:31 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:31 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:14:31 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:14:32 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:14:32 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:32 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:14:32 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:14:32 - [MESSAGE][INFO] - Setting text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' to value 'admin'
+
+2019-02-26 08:14:32 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:14:32 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:14:32 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:14:32 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:14:32 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:32 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' located by 'By.xpath: //input[@id='password']' in '3' second(s)
+
+2019-02-26 08:14:33 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' located by 'By.xpath: //input[@id='password']' in '3' second(s)
+
+2019-02-26 08:14:33 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:14:33 - [MESSAGE][INFO] - Setting  text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' to value ******
+
+2019-02-26 08:14:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:14:33 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj'
+
+2019-02-26 08:14:33 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:14:33 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:33 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' located by 'By.xpath: //input[@value='ZALOGUJ']' in '3' second(s)
+
+2019-02-26 08:14:33 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' located by 'By.xpath: //input[@value='ZALOGUJ']' in '3' second(s)
+
+2019-02-26 08:14:33 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj'
+
+2019-02-26 08:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' is clicked on
+
+2019-02-26 08:14:37 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie'
+
+2019-02-26 08:14:37 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:14:37 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:37 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:37 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' located by 'By.xpath: //div[@id='kokpit-container']/div/div/div' in '25' second(s)
+
+2019-02-26 08:14:39 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' located by 'By.xpath: //div[@id='kokpit-container']/div/div/div' in '25' second(s)
+
+2019-02-26 08:14:39 - [MESSAGE][PASSED] - Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' is visible
+
+2019-02-26 08:14:39 - [MESSAGE][PASSED] - help_pack.Logowanie.zaloguj is PASSED
+
+2019-02-26 08:14:39 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski"), 10): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:14:39 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski'
+
+2019-02-26 08:14:39 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski' located by 'By.xpath: //a[@id='obi_topmenu_zastepstwa']' in '3' second(s)
+
+2019-02-26 08:14:39 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski' located by 'By.xpath: //a[@id='obi_topmenu_zastepstwa']' in '3' second(s)
+
+2019-02-26 08:14:39 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:14:39 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:14:39 - [TEST_STEP][PASSED] - click(findTestObject("hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)")): Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)' is clicked on
+
+2019-02-26 08:14:39 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)'
+
+2019-02-26 08:14:39 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:14:39 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)' located by 'By.xpath: //div[@id='obi_zastepstwa_rejestracja_lista_button']/div' in '3' second(s)
+
+2019-02-26 08:14:40 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)' located by 'By.xpath: //div[@id='obi_zastepstwa_rejestracja_lista_button']/div' in '3' second(s)
+
+2019-02-26 08:14:40 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)'
+
+2019-02-26 08:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)' is clicked on
+
+2019-02-26 08:14:40 - [TEST_STEP][PASSED] - help_pack.Set_text_and_press_enter.set_text(findTestObject("hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko"), "Wojciechowski"): help_pack.Set_text_and_press_enter.set_text is PASSED
+
+2019-02-26 08:14:40 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:14:40 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:14:40 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:40 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '5' second(s)
+
+2019-02-26 08:14:41 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '5' second(s)
+
+2019-02-26 08:14:41 - [MESSAGE][PASSED] - Object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' is present
+
+2019-02-26 08:14:41 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:14:42 - [MESSAGE][INFO] - Finding text 'Trwa ładowanie' on page 
+
+2019-02-26 08:14:42 - [MESSAGE][PASSED] - Text 'Trwa ładowanie' is not present on page
+
+2019-02-26 08:14:42 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:14:43 - [MESSAGE][INFO] - Finding text 'Ładowanie...' on page 
+
+2019-02-26 08:14:43 - [MESSAGE][PASSED] - Text 'Ładowanie...' is not present on page
+
+2019-02-26 08:14:43 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:14:43 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:14:43 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:43 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:14:43 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:14:43 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:14:43 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:43 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:14:43 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:14:43 - [MESSAGE][INFO] - Setting text of object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' to value 'Wojciechowski'
+
+2019-02-26 08:14:44 - [MESSAGE][PASSED] - Text 'Wojciechowski' is set on object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:14:44 - [MESSAGE][INFO] - Sending keys 'TAB + ' to object: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:14:44 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:44 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:14:44 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:14:44 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:14:44 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:14:45 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:14:45 - [MESSAGE][WARNING] - Text 'Proszę czekać...' is present on page 
+
+2019-02-26 08:14:45 - [MESSAGE][INFO] - Delaying browser in 1 second(s)
+
+2019-02-26 08:14:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-26 08:14:46 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:14:46 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:14:46 - [MESSAGE][PASSED] - Text 'Proszę czekać...' is not present on page
+
+2019-02-26 08:14:46 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:14:47 - [MESSAGE][INFO] - Finding text 'Proszę czekać ...' on page 
+
+2019-02-26 08:14:47 - [MESSAGE][PASSED] - Text 'Proszę czekać ...' is not present on page
+
+2019-02-26 08:14:47 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:14:47 - [MESSAGE][INFO] - Finding text 'Proszę czekać' on page 
+
+2019-02-26 08:14:47 - [MESSAGE][PASSED] - Text 'Proszę czekać' is not present on page
+
+2019-02-26 08:14:47 - [MESSAGE][PASSED] - help_pack.Set_text_and_press_enter.set_text is PASSED
+
+2019-02-26 08:14:47 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-02-26 08:14:48 - [TEST_STEP][PASSED] - help_pack.wait_for_text.not_Present("Proszę czekać...", 15): help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:14:48 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:14:48 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:14:48 - [MESSAGE][PASSED] - Text 'Proszę czekać...' is not present on page
+
+2019-02-26 08:14:48 - [MESSAGE][PASSED] - help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:14:48 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/Wiersz pierwszy w tabela Stanwiska"), 5): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:14:48 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/Wiersz pierwszy w tabela Stanwiska'
+
+2019-02-26 08:14:48 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:48 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/Wiersz pierwszy w tabela Stanwiska' located by 'By.xpath: //table[@id='tblStanowiskaIndexGrid']/tbody/tr[1]/td[1]' in '3' second(s)
+
+2019-02-26 08:14:48 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/Wiersz pierwszy w tabela Stanwiska' located by 'By.xpath: //table[@id='tblStanowiskaIndexGrid']/tbody/tr[1]/td[1]' in '3' second(s)
+
+2019-02-26 08:14:48 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:14:49 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:14:49 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Wybierz opcje", ["xpath":"//select[@name='tblZastepstwaIndexGrid_length']"]), "100", false): All options with label '100' are selected in object 'Object Repository/Wybierz opcje' 
+
+2019-02-26 08:14:49 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Wybierz opcje'
+
+2019-02-26 08:14:49 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:14:49 - [MESSAGE][INFO] - Checking label parameter
+
+2019-02-26 08:14:49 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:49 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Wybierz opcje' located by 'By.xpath: //select[@name='tblZastepstwaIndexGrid_length']' in '3' second(s)
+
+2019-02-26 08:14:49 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Wybierz opcje' located by 'By.xpath: //select[@name='tblZastepstwaIndexGrid_length']' in '3' second(s)
+
+2019-02-26 08:14:49 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/Wybierz opcje' with label '100' 
+
+2019-02-26 08:14:49 - [MESSAGE][PASSED] - All options with label '100' are selected in object 'Object Repository/Wybierz opcje' 
+
+2019-02-26 08:14:49 - [TEST_STEP][PASSED] - Thread.sleep(300): null
+
+2019-02-26 08:14:50 - [TEST_STEP][PASSED] - help_pack.wait_for_text.not_Present("Proszę czekać...", 15): help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:14:50 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:14:51 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:14:51 - [MESSAGE][PASSED] - Text 'Proszę czekać...' is not present on page
+
+2019-02-26 08:14:51 - [MESSAGE][PASSED] - help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:14:51 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-02-26 08:14:51 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//table[@id='tblZastepstwaIndexGrid']/tbody")): null
+
+2019-02-26 08:14:51 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2019-02-26 08:14:51 - [TEST_STEP][PASSED] - columns_table = Table.findElements(By.tagName("td")): null
+
+2019-02-26 08:14:52 - [TEST_STEP][PASSED] - LiczbaWierszyPrzedDodaniemZastepstwa = rows_table.size(): null
+
+2019-02-26 08:14:52 - [TEST_STEP][PASSED] - click(findTestObject("hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button Nowe zastpestwo")): Object: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button Nowe zastpestwo' is clicked on
+
+2019-02-26 08:14:52 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button Nowe zastpestwo'
+
+2019-02-26 08:14:52 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:14:52 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:52 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button Nowe zastpestwo' located by 'By.xpath: //div[@id='obi_zastepstwa_actions_nowy']/div' in '3' second(s)
+
+2019-02-26 08:14:52 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button Nowe zastpestwo' located by 'By.xpath: //div[@id='obi_zastepstwa_actions_nowy']/div' in '3' second(s)
+
+2019-02-26 08:14:52 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button Nowe zastpestwo'
+
+2019-02-26 08:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button Nowe zastpestwo' is clicked on
+
+2019-02-26 08:14:52 - [TEST_STEP][PASSED] - click(findTestObject("hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button zmien osobe zastepujaca")): Object: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button zmien osobe zastepujaca' is clicked on
+
+2019-02-26 08:14:52 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button zmien osobe zastepujaca'
+
+2019-02-26 08:14:52 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:14:52 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:52 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button zmien osobe zastepujaca' located by 'By.xpath: (//input[@value='Zmień'])[2]' in '3' second(s)
+
+2019-02-26 08:14:53 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button zmien osobe zastepujaca' located by 'By.xpath: (//input[@value='Zmień'])[2]' in '3' second(s)
+
+2019-02-26 08:14:53 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button zmien osobe zastepujaca'
+
+2019-02-26 08:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Button zmien osobe zastepujaca' is clicked on
+
+2019-02-26 08:14:53 - [TEST_STEP][PASSED] - help_pack.Set_text_and_press_enter.set_text(findTestObject("pole tekstowe", ["xpath":"(//input[@name='nazwisko'])[2]"]), "Borowska"): help_pack.Set_text_and_press_enter.set_text is PASSED
+
+2019-02-26 08:14:53 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:14:53 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:14:53 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:53 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/pole tekstowe' located by 'By.xpath: (//input[@name='nazwisko'])[2]' in '5' second(s)
+
+2019-02-26 08:14:54 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/pole tekstowe' located by 'By.xpath: (//input[@name='nazwisko'])[2]' in '5' second(s)
+
+2019-02-26 08:14:54 - [MESSAGE][PASSED] - Object 'Object Repository/pole tekstowe' is present
+
+2019-02-26 08:14:54 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:14:55 - [MESSAGE][INFO] - Finding text 'Trwa ładowanie' on page 
+
+2019-02-26 08:14:55 - [MESSAGE][PASSED] - Text 'Trwa ładowanie' is not present on page
+
+2019-02-26 08:14:55 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Finding text 'Ładowanie...' on page 
+
+2019-02-26 08:14:57 - [MESSAGE][PASSED] - Text 'Ładowanie...' is not present on page
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/pole tekstowe' located by 'By.xpath: (//input[@name='nazwisko'])[2]' in '3' second(s)
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/pole tekstowe' located by 'By.xpath: (//input[@name='nazwisko'])[2]' in '3' second(s)
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/pole tekstowe' located by 'By.xpath: (//input[@name='nazwisko'])[2]' in '3' second(s)
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/pole tekstowe' located by 'By.xpath: (//input[@name='nazwisko'])[2]' in '3' second(s)
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Setting text of object 'Object Repository/pole tekstowe' to value 'Borowska'
+
+2019-02-26 08:14:57 - [MESSAGE][PASSED] - Text 'Borowska' is set on object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Sending keys 'TAB + ' to object: 'Object Repository/pole tekstowe'
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/pole tekstowe' located by 'By.xpath: (//input[@name='nazwisko'])[2]' in '3' second(s)
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/pole tekstowe' located by 'By.xpath: (//input[@name='nazwisko'])[2]' in '3' second(s)
+
+2019-02-26 08:14:57 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/pole tekstowe'
+
+2019-02-26 08:14:57 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:14:59 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:14:59 - [MESSAGE][WARNING] - Text 'Proszę czekać...' is present on page 
+
+2019-02-26 08:14:59 - [MESSAGE][INFO] - Delaying browser in 1 second(s)
+
+2019-02-26 08:15:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-26 08:15:00 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:15:01 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:15:01 - [MESSAGE][PASSED] - Text 'Proszę czekać...' is not present on page
+
+2019-02-26 08:15:01 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:15:02 - [MESSAGE][INFO] - Finding text 'Proszę czekać ...' on page 
+
+2019-02-26 08:15:02 - [MESSAGE][PASSED] - Text 'Proszę czekać ...' is not present on page
+
+2019-02-26 08:15:02 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:15:03 - [MESSAGE][INFO] - Finding text 'Proszę czekać' on page 
+
+2019-02-26 08:15:03 - [MESSAGE][PASSED] - Text 'Proszę czekać' is not present on page
+
+2019-02-26 08:15:03 - [MESSAGE][PASSED] - help_pack.Set_text_and_press_enter.set_text is PASSED
+
+2019-02-26 08:15:03 - [TEST_STEP][PASSED] - Thread.sleep(300): null
+
+2019-02-26 08:15:03 - [TEST_STEP][PASSED] - help_pack.wait_for_text.not_Present("Proszę czekać...", 15): help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:15:03 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:15:04 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:15:04 - [MESSAGE][PASSED] - Text 'Proszę czekać...' is not present on page
+
+2019-02-26 08:15:04 - [MESSAGE][PASSED] - help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:15:04 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("tabela", ["xpath":"//table[@id='tblDostepnizastepujacyIndexGrid']/tbody/tr/td[2]"]), 15): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:04 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/tabela'
+
+2019-02-26 08:15:04 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:04 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/tabela' located by 'By.xpath: //table[@id='tblDostepnizastepujacyIndexGrid']/tbody/tr/td[2]' in '3' second(s)
+
+2019-02-26 08:15:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/tabela' located by 'By.xpath: //table[@id='tblDostepnizastepujacyIndexGrid']/tbody/tr/td[2]' in '3' second(s)
+
+2019-02-26 08:15:05 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:05 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:05 - [TEST_STEP][PASSED] - setText(findTestObject("hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane od"), "2019-02-09"): Text '2019-02-09' is set on object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane od'
+
+2019-02-26 08:15:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane od'
+
+2019-02-26 08:15:05 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:05 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:15:05 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane od' located by 'By.xpath: //input[@id='obi_zastepstwa_wazne_od']' in '3' second(s)
+
+2019-02-26 08:15:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane od' located by 'By.xpath: //input[@id='obi_zastepstwa_wazne_od']' in '3' second(s)
+
+2019-02-26 08:15:05 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane od'
+
+2019-02-26 08:15:05 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane od' located by 'By.xpath: //input[@id='obi_zastepstwa_wazne_od']' in '3' second(s)
+
+2019-02-26 08:15:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane od' located by 'By.xpath: //input[@id='obi_zastepstwa_wazne_od']' in '3' second(s)
+
+2019-02-26 08:15:05 - [MESSAGE][INFO] - Setting text of object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane od' to value '2019-02-09'
+
+2019-02-26 08:15:06 - [MESSAGE][PASSED] - Text '2019-02-09' is set on object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane od'
+
+2019-02-26 08:15:06 - [TEST_STEP][PASSED] - setText(findTestObject("hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane do"), "2042-10-10"): Text '2042-10-10' is set on object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane do'
+
+2019-02-26 08:15:06 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane do'
+
+2019-02-26 08:15:06 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:06 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:15:06 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:06 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane do' located by 'By.xpath: //input[@id='obi_zastepstwa_wazne_do']' in '3' second(s)
+
+2019-02-26 08:15:06 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane do' located by 'By.xpath: //input[@id='obi_zastepstwa_wazne_do']' in '3' second(s)
+
+2019-02-26 08:15:06 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane do'
+
+2019-02-26 08:15:06 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:06 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane do' located by 'By.xpath: //input[@id='obi_zastepstwa_wazne_do']' in '3' second(s)
+
+2019-02-26 08:15:06 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane do' located by 'By.xpath: //input[@id='obi_zastepstwa_wazne_do']' in '3' second(s)
+
+2019-02-26 08:15:06 - [MESSAGE][INFO] - Setting text of object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane do' to value '2042-10-10'
+
+2019-02-26 08:15:07 - [MESSAGE][PASSED] - Text '2042-10-10' is set on object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/pole tekstowe Wane do'
+
+2019-02-26 08:15:07 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/button Utworz i zamknij"), 5): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/button Utworz i zamknij'
+
+2019-02-26 08:15:07 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:07 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/button Utworz i zamknij' located by 'By.xpath: //input[@id='btnZastepstwoSaveAndClose']' in '3' second(s)
+
+2019-02-26 08:15:07 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/button Utworz i zamknij' located by 'By.xpath: //input[@id='btnZastepstwoSaveAndClose']' in '3' second(s)
+
+2019-02-26 08:15:07 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:08 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:08 - [TEST_STEP][PASSED] - help_pack.wait_for_text.not_Present("Trwa zapisywanie...", 15): help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:15:08 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:15:09 - [MESSAGE][INFO] - Finding text 'Trwa zapisywanie...' on page 
+
+2019-02-26 08:15:09 - [MESSAGE][WARNING] - Text 'Trwa zapisywanie...' is present on page 
+
+2019-02-26 08:15:09 - [MESSAGE][INFO] - Delaying browser in 1 second(s)
+
+2019-02-26 08:15:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-26 08:15:10 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:15:12 - [MESSAGE][INFO] - Finding text 'Trwa zapisywanie...' on page 
+
+2019-02-26 08:15:12 - [MESSAGE][PASSED] - Text 'Trwa zapisywanie...' is not present on page
+
+2019-02-26 08:15:12 - [MESSAGE][PASSED] - help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:15:12 - [TEST_STEP][PASSED] - help_pack.wait_for_text.not_Present("Proszę czekać...", 15): help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:15:12 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:15:13 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:15:13 - [MESSAGE][PASSED] - Text 'Proszę czekać...' is not present on page
+
+2019-02-26 08:15:13 - [MESSAGE][PASSED] - help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:15:13 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/wiersz pierwszy w tabela Zastepstwa"), 5): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:13 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/wiersz pierwszy w tabela Zastepstwa'
+
+2019-02-26 08:15:13 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:13 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/wiersz pierwszy w tabela Zastepstwa' located by 'By.xpath: //table[@id='tblZastepstwaIndexGrid']/tbody/tr[1]/td[5]' in '3' second(s)
+
+2019-02-26 08:15:13 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/wiersz pierwszy w tabela Zastepstwa' located by 'By.xpath: //table[@id='tblZastepstwaIndexGrid']/tbody/tr[1]/td[5]' in '3' second(s)
+
+2019-02-26 08:15:13 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:13 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:13 - [TEST_STEP][PASSED] - driver2 = getWebDriver(): null
+
+2019-02-26 08:15:13 - [TEST_STEP][PASSED] - Table2 = driver2.findElement(By.xpath("//table[@id='tblZastepstwaIndexGrid']/tbody")): null
+
+2019-02-26 08:15:13 - [TEST_STEP][PASSED] - rows_table2 = Table.findElements(By.tagName("tr")): null
+
+2019-02-26 08:15:13 - [TEST_STEP][PASSED] - LiczbaWierszyPoDodaniuZastepstwa = rows_table2.size(): null
+
+2019-02-26 08:15:13 - [TEST_STEP][PASSED] - assert LiczbaWierszyPrzedDodaniemZastepstwa != LiczbaWierszyPoDodaniuZastepstwa: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testy jeden po drugim zastepstwa/Test_003.3 Akceptacja zastepstwa" classname="Test Cases/Testy jeden po drugim zastepstwa/Test_003.3 Akceptacja zastepstwa" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testy jeden po drugim zastepstwa/Test_003.3 Akceptacja zastepstwa FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: CzyZaakceptowany for class: Script1551098062967
+	at Test_003.3 Akceptacja zastepstwa.SprawdzCzyJestAkceptacja(Test_003.3 Akceptacja zastepstwa:237)
+	at Test_003.3 Akceptacja zastepstwa.run(Test_003.3 Akceptacja zastepstwa:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551165248924.run(TempTestSuite1551165248924.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-26 08:15:13 - [TEST_CASE][ERROR] - Test Cases/Testy jeden po drugim zastepstwa/Test_003.3 Akceptacja zastepstwa: Test Cases/Testy jeden po drugim zastepstwa/Test_003.3 Akceptacja zastepstwa FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: CzyZaakceptowany for class: Script1551098062967
+	at Test_003.3 Akceptacja zastepstwa.SprawdzCzyJestAkceptacja(Test_003.3 Akceptacja zastepstwa:237)
+	at Test_003.3 Akceptacja zastepstwa.run(Test_003.3 Akceptacja zastepstwa:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551165248924.run(TempTestSuite1551165248924.groovy:36)
+
+
+2019-02-26 08:15:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Pomoc_w_test_suite.sampleBeforeTestCase(...)' completed.
+
+2019-02-26 08:15:13 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Pomoc_w_test_suite.sampleBeforeTestCase(...)'
+
+2019-02-26 08:15:13 - [TEST_STEP][PASSED] - url = getUrl(OPTIONAL): Current window's url is: 'http://tsk6365.testy.hsi.pl/#view'
+
+2019-02-26 08:15:13 - [MESSAGE][INFO] - Getting current window's url
+
+2019-02-26 08:15:13 - [MESSAGE][PASSED] - Current window's url is: 'http://tsk6365.testy.hsi.pl/#view'
+
+2019-02-26 08:15:13 - [TEST_STEP][PASSED] - if (url == null): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Pomoc_w_test_suite.sampleBeforeTestCase(...)' completed.
+
+2019-02-26 08:15:13 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Pomoc_w_test_suite.sampleBeforeTestCase(...)' completed.
+
+2019-02-26 08:15:16 - [TEST_STEP][NOT_RUN] - help_pack.Wyloguj.wyloguj(): NOT_RUN: help_pack.Wyloguj.wyloguj()
+
+2019-02-26 08:15:16 - [MESSAGE][NOT_RUN] - NOT_RUN: help_pack.Wyloguj.wyloguj()
+
+2019-02-26 08:15:16 - [TEST_STEP][NOT_RUN] - help_pack.Logowanie.zaloguj("admin", "gqNiyN/IiIvaUo8G1BKwoQ=="): NOT_RUN: help_pack.Logowanie.zaloguj("admin", "gqNiyN/IiIvaUo8G1BKwoQ==")
+
+2019-02-26 08:15:16 - [MESSAGE][NOT_RUN] - NOT_RUN: help_pack.Logowanie.zaloguj("admin", "gqNiyN/IiIvaUo8G1BKwoQ==")
+
+2019-02-26 08:15:16 - [TEST_STEP][NOT_RUN] - TworzenieZastepstwa(): NOT_RUN: TworzenieZastepstwa()
+
+2019-02-26 08:15:16 - [MESSAGE][NOT_RUN] - NOT_RUN: TworzenieZastepstwa()
+
+2019-02-26 08:15:16 - [TEST_STEP][PASSED] - help_pack.Wyloguj.wyloguj(): help_pack.Wyloguj.wyloguj is PASSED
+
+2019-02-26 08:15:16 - [MESSAGE][INFO] - Checking url
+
+2019-02-26 08:15:16 - [MESSAGE][INFO] - Navigating to 'http://tsk6365.testy.hsi.pl/login'
+
+2019-02-26 08:15:16 - [MESSAGE][PASSED] - Navigate to 'http://tsk6365.testy.hsi.pl/login' successfully
+
+2019-02-26 08:15:16 - [MESSAGE][PASSED] - help_pack.Wyloguj.wyloguj is PASSED
+
+2019-02-26 08:15:16 - [TEST_STEP][PASSED] - help_pack.Logowanie.zaloguj("anna.borowska", "gqNiyN/IiIvaUo8G1BKwoQ=="): help_pack.Logowanie.zaloguj is PASSED
+
+2019-02-26 08:15:16 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:15:16 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:16 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:15:16 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:16 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:15:16 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:15:16 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Setting text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' to value 'anna.borowska'
+
+2019-02-26 08:15:17 - [MESSAGE][PASSED] - Text 'anna.borowska' is set on object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' located by 'By.xpath: //input[@id='password']' in '3' second(s)
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' located by 'By.xpath: //input[@id='password']' in '3' second(s)
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Setting  text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' to value ******
+
+2019-02-26 08:15:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj'
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:17 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' located by 'By.xpath: //input[@value='ZALOGUJ']' in '3' second(s)
+
+2019-02-26 08:15:18 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' located by 'By.xpath: //input[@value='ZALOGUJ']' in '3' second(s)
+
+2019-02-26 08:15:18 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj'
+
+2019-02-26 08:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' is clicked on
+
+2019-02-26 08:15:22 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie'
+
+2019-02-26 08:15:22 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:22 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:22 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:22 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' located by 'By.xpath: //div[@id='kokpit-container']/div/div/div' in '25' second(s)
+
+2019-02-26 08:15:23 - [MESSAGE][INFO] - Found 6 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' located by 'By.xpath: //div[@id='kokpit-container']/div/div/div' in '25' second(s)
+
+2019-02-26 08:15:24 - [MESSAGE][PASSED] - Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' is visible
+
+2019-02-26 08:15:24 - [MESSAGE][PASSED] - help_pack.Logowanie.zaloguj is PASSED
+
+2019-02-26 08:15:24 - [TEST_STEP][PASSED] - AkceptacjaNaKoncieAnnaBorowska(): null
+
+2019-02-26 08:15:24 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski"), 10): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:24 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski'
+
+2019-02-26 08:15:24 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:24 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski' located by 'By.xpath: //a[@id='obi_topmenu_zastepstwa']' in '3' second(s)
+
+2019-02-26 08:15:24 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski' located by 'By.xpath: //a[@id='obi_topmenu_zastepstwa']' in '3' second(s)
+
+2019-02-26 08:15:24 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:24 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:24 - [TEST_STEP][PASSED] - click(findTestObject("hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)")): Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)' is clicked on
+
+2019-02-26 08:15:24 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)'
+
+2019-02-26 08:15:24 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:24 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:24 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)' located by 'By.xpath: //div[@id='obi_zastepstwa_akceptacja_lista_button']/div' in '3' second(s)
+
+2019-02-26 08:15:24 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)' located by 'By.xpath: //div[@id='obi_zastepstwa_akceptacja_lista_button']/div' in '3' second(s)
+
+2019-02-26 08:15:24 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)'
+
+2019-02-26 08:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)' is clicked on
+
+2019-02-26 08:15:25 - [TEST_STEP][PASSED] - Thread.sleep(300): null
+
+2019-02-26 08:15:25 - [TEST_STEP][PASSED] - help_pack.wait_for_text.not_Present("Proszę czekać...", 15): help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:15:25 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:15:26 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:15:26 - [MESSAGE][WARNING] - Text 'Proszę czekać...' is present on page 
+
+2019-02-26 08:15:26 - [MESSAGE][INFO] - Delaying browser in 1 second(s)
+
+2019-02-26 08:15:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-26 08:15:27 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:15:28 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:15:28 - [MESSAGE][PASSED] - Text 'Proszę czekać...' is not present on page
+
+2019-02-26 08:15:28 - [MESSAGE][PASSED] - help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:15:28 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("tabela", ["xpath":"//td[3]"]), 15): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:28 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/tabela'
+
+2019-02-26 08:15:28 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:28 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/tabela' located by 'By.xpath: //td[3]' in '3' second(s)
+
+2019-02-26 08:15:28 - [MESSAGE][INFO] - Found 17 web elements with id: 'Object Repository/tabela' located by 'By.xpath: //td[3]' in '3' second(s)
+
+2019-02-26 08:15:28 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:28 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:28 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("button", ["xpath":"//div[@id='obi_zastepstwa_akceptacja_actions_akceptacja']/div"]), 15): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:28 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/button'
+
+2019-02-26 08:15:28 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:28 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/button' located by 'By.xpath: //div[@id='obi_zastepstwa_akceptacja_actions_akceptacja']/div' in '3' second(s)
+
+2019-02-26 08:15:28 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/button' located by 'By.xpath: //div[@id='obi_zastepstwa_akceptacja_actions_akceptacja']/div' in '3' second(s)
+
+2019-02-26 08:15:28 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:29 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:29 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-02-26 08:15:29 - [TEST_STEP][PASSED] - setText(findTestObject("pole tekstowe", ["xpath":"//input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']"]), "Akceptacja pierwsza osoba"): Text 'Akceptacja pierwsza osoba' is set on object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:15:29 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:15:29 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:29 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:15:29 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:29 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/pole tekstowe' located by 'By.xpath: //input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']' in '3' second(s)
+
+2019-02-26 08:15:29 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/pole tekstowe' located by 'By.xpath: //input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']' in '3' second(s)
+
+2019-02-26 08:15:29 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:15:30 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:30 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/pole tekstowe' located by 'By.xpath: //input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']' in '3' second(s)
+
+2019-02-26 08:15:30 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/pole tekstowe' located by 'By.xpath: //input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']' in '3' second(s)
+
+2019-02-26 08:15:30 - [MESSAGE][INFO] - Setting text of object 'Object Repository/pole tekstowe' to value 'Akceptacja pierwsza osoba'
+
+2019-02-26 08:15:30 - [MESSAGE][PASSED] - Text 'Akceptacja pierwsza osoba' is set on object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:15:30 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("button", ["xpath":"//input[@id='btnInstancjaakceptacjiSaveChanges']"]), 15): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:30 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/button'
+
+2019-02-26 08:15:30 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:30 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/button' located by 'By.xpath: //input[@id='btnInstancjaakceptacjiSaveChanges']' in '3' second(s)
+
+2019-02-26 08:15:30 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/button' located by 'By.xpath: //input[@id='btnInstancjaakceptacjiSaveChanges']' in '3' second(s)
+
+2019-02-26 08:15:30 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:31 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:31 - [TEST_STEP][PASSED] - help_pack.Wyloguj.wyloguj(): help_pack.Wyloguj.wyloguj is PASSED
+
+2019-02-26 08:15:31 - [MESSAGE][INFO] - Checking url
+
+2019-02-26 08:15:31 - [MESSAGE][INFO] - Navigating to 'http://tsk6365.testy.hsi.pl/login'
+
+2019-02-26 08:15:31 - [MESSAGE][PASSED] - Navigate to 'http://tsk6365.testy.hsi.pl/login' successfully
+
+2019-02-26 08:15:31 - [MESSAGE][PASSED] - help_pack.Wyloguj.wyloguj is PASSED
+
+2019-02-26 08:15:31 - [TEST_STEP][PASSED] - help_pack.Logowanie.zaloguj("romuald.puzyrewski", "gqNiyN/IiIvaUo8G1BKwoQ=="): help_pack.Logowanie.zaloguj is PASSED
+
+2019-02-26 08:15:31 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:15:31 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:31 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:15:31 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:31 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:15:32 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:15:32 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:15:32 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:32 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:15:32 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:15:32 - [MESSAGE][INFO] - Setting text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' to value 'romuald.puzyrewski'
+
+2019-02-26 08:15:32 - [MESSAGE][PASSED] - Text 'romuald.puzyrewski' is set on object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:15:32 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:15:32 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:32 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:15:32 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:32 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' located by 'By.xpath: //input[@id='password']' in '3' second(s)
+
+2019-02-26 08:15:32 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' located by 'By.xpath: //input[@id='password']' in '3' second(s)
+
+2019-02-26 08:15:32 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:15:33 - [MESSAGE][INFO] - Setting  text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' to value ******
+
+2019-02-26 08:15:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:15:33 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj'
+
+2019-02-26 08:15:33 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:33 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:33 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' located by 'By.xpath: //input[@value='ZALOGUJ']' in '3' second(s)
+
+2019-02-26 08:15:33 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' located by 'By.xpath: //input[@value='ZALOGUJ']' in '3' second(s)
+
+2019-02-26 08:15:33 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj'
+
+2019-02-26 08:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' is clicked on
+
+2019-02-26 08:15:36 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie'
+
+2019-02-26 08:15:36 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:36 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:36 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:36 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' located by 'By.xpath: //div[@id='kokpit-container']/div/div/div' in '25' second(s)
+
+2019-02-26 08:15:39 - [MESSAGE][INFO] - Found 6 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' located by 'By.xpath: //div[@id='kokpit-container']/div/div/div' in '25' second(s)
+
+2019-02-26 08:15:39 - [MESSAGE][PASSED] - Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' is visible
+
+2019-02-26 08:15:39 - [MESSAGE][PASSED] - help_pack.Logowanie.zaloguj is PASSED
+
+2019-02-26 08:15:39 - [TEST_STEP][PASSED] - AkceptacjaNaKoncieRomualdPuzyrewski(): null
+
+2019-02-26 08:15:39 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski"), 10): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:39 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski'
+
+2019-02-26 08:15:39 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski' located by 'By.xpath: //a[@id='obi_topmenu_zastepstwa']' in '3' second(s)
+
+2019-02-26 08:15:39 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski' located by 'By.xpath: //a[@id='obi_topmenu_zastepstwa']' in '3' second(s)
+
+2019-02-26 08:15:39 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:39 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:39 - [TEST_STEP][PASSED] - click(findTestObject("hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)")): Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)' is clicked on
+
+2019-02-26 08:15:39 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)'
+
+2019-02-26 08:15:39 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:39 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)' located by 'By.xpath: //div[@id='obi_zastepstwa_akceptacja_lista_button']/div' in '3' second(s)
+
+2019-02-26 08:15:39 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)' located by 'By.xpath: //div[@id='obi_zastepstwa_akceptacja_lista_button']/div' in '3' second(s)
+
+2019-02-26 08:15:39 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)'
+
+2019-02-26 08:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)' is clicked on
+
+2019-02-26 08:15:40 - [TEST_STEP][PASSED] - Thread.sleep(300): null
+
+2019-02-26 08:15:40 - [TEST_STEP][PASSED] - help_pack.wait_for_text.not_Present("Proszę czekać...", 15): help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:15:40 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:15:41 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:15:41 - [MESSAGE][WARNING] - Text 'Proszę czekać...' is present on page 
+
+2019-02-26 08:15:41 - [MESSAGE][INFO] - Delaying browser in 1 second(s)
+
+2019-02-26 08:15:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-26 08:15:42 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:15:43 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:15:43 - [MESSAGE][PASSED] - Text 'Proszę czekać...' is not present on page
+
+2019-02-26 08:15:43 - [MESSAGE][PASSED] - help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:15:43 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("tabela", ["xpath":"//td[3]"]), 15): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:43 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/tabela'
+
+2019-02-26 08:15:43 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:43 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/tabela' located by 'By.xpath: //td[3]' in '3' second(s)
+
+2019-02-26 08:15:43 - [MESSAGE][INFO] - Found 9 web elements with id: 'Object Repository/tabela' located by 'By.xpath: //td[3]' in '3' second(s)
+
+2019-02-26 08:15:43 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:43 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:43 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("button", ["xpath":"//div[@id='obi_zastepstwa_akceptacja_actions_akceptacja']/div"]), 15): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:43 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/button'
+
+2019-02-26 08:15:43 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:43 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/button' located by 'By.xpath: //div[@id='obi_zastepstwa_akceptacja_actions_akceptacja']/div' in '3' second(s)
+
+2019-02-26 08:15:43 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/button' located by 'By.xpath: //div[@id='obi_zastepstwa_akceptacja_actions_akceptacja']/div' in '3' second(s)
+
+2019-02-26 08:15:43 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:44 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:44 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-02-26 08:15:44 - [TEST_STEP][PASSED] - setText(findTestObject("pole tekstowe", ["xpath":"//input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']"]), "Akceptacja druga osoba"): Text 'Akceptacja druga osoba' is set on object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:15:44 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:15:44 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:44 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:15:44 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:44 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/pole tekstowe' located by 'By.xpath: //input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']' in '3' second(s)
+
+2019-02-26 08:15:44 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/pole tekstowe' located by 'By.xpath: //input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']' in '3' second(s)
+
+2019-02-26 08:15:44 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:15:44 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:44 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/pole tekstowe' located by 'By.xpath: //input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']' in '3' second(s)
+
+2019-02-26 08:15:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/pole tekstowe' located by 'By.xpath: //input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']' in '3' second(s)
+
+2019-02-26 08:15:45 - [MESSAGE][INFO] - Setting text of object 'Object Repository/pole tekstowe' to value 'Akceptacja druga osoba'
+
+2019-02-26 08:15:45 - [MESSAGE][PASSED] - Text 'Akceptacja druga osoba' is set on object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:15:45 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("button", ["xpath":"//input[@id='btnInstancjaakceptacjiSaveChanges']"]), 15): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:45 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/button'
+
+2019-02-26 08:15:45 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/button' located by 'By.xpath: //input[@id='btnInstancjaakceptacjiSaveChanges']' in '3' second(s)
+
+2019-02-26 08:15:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/button' located by 'By.xpath: //input[@id='btnInstancjaakceptacjiSaveChanges']' in '3' second(s)
+
+2019-02-26 08:15:45 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:45 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:45 - [TEST_STEP][PASSED] - help_pack.Wyloguj.wyloguj(): help_pack.Wyloguj.wyloguj is PASSED
+
+2019-02-26 08:15:46 - [MESSAGE][INFO] - Checking url
+
+2019-02-26 08:15:46 - [MESSAGE][INFO] - Navigating to 'http://tsk6365.testy.hsi.pl/login'
+
+2019-02-26 08:15:46 - [MESSAGE][PASSED] - Navigate to 'http://tsk6365.testy.hsi.pl/login' successfully
+
+2019-02-26 08:15:46 - [MESSAGE][PASSED] - help_pack.Wyloguj.wyloguj is PASSED
+
+2019-02-26 08:15:46 - [TEST_STEP][PASSED] - help_pack.Logowanie.zaloguj("ludwik.bartoszewicz", "gqNiyN/IiIvaUo8G1BKwoQ=="): help_pack.Logowanie.zaloguj is PASSED
+
+2019-02-26 08:15:46 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:15:46 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:46 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:15:46 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:46 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:15:46 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:15:46 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:15:46 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:46 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:15:46 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:15:46 - [MESSAGE][INFO] - Setting text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' to value 'ludwik.bartoszewicz'
+
+2019-02-26 08:15:47 - [MESSAGE][PASSED] - Text 'ludwik.bartoszewicz' is set on object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' located by 'By.xpath: //input[@id='password']' in '3' second(s)
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' located by 'By.xpath: //input[@id='password']' in '3' second(s)
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Setting  text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' to value ******
+
+2019-02-26 08:15:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj'
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' located by 'By.xpath: //input[@value='ZALOGUJ']' in '3' second(s)
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' located by 'By.xpath: //input[@value='ZALOGUJ']' in '3' second(s)
+
+2019-02-26 08:15:47 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj'
+
+2019-02-26 08:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' is clicked on
+
+2019-02-26 08:15:51 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie'
+
+2019-02-26 08:15:51 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:51 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:51 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:51 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' located by 'By.xpath: //div[@id='kokpit-container']/div/div/div' in '25' second(s)
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Found 6 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' located by 'By.xpath: //div[@id='kokpit-container']/div/div/div' in '25' second(s)
+
+2019-02-26 08:15:54 - [MESSAGE][PASSED] - Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' is visible
+
+2019-02-26 08:15:54 - [MESSAGE][PASSED] - help_pack.Logowanie.zaloguj is PASSED
+
+2019-02-26 08:15:54 - [TEST_STEP][PASSED] - AkceptacjaNaKoncieLudwikBartoszewicz(): null
+
+2019-02-26 08:15:54 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski"), 10): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski'
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski' located by 'By.xpath: //a[@id='obi_topmenu_zastepstwa']' in '3' second(s)
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski' located by 'By.xpath: //a[@id='obi_topmenu_zastepstwa']' in '3' second(s)
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:54 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Wybierz opcje", ["xpath":"//select[@id='aktualne_stanowisko']"]), "4", false): All options with value '4' are selected in object 'Object Repository/Wybierz opcje' 
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Wybierz opcje'
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Checking value parameter
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Wybierz opcje' located by 'By.xpath: //select[@id='aktualne_stanowisko']' in '3' second(s)
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Wybierz opcje' located by 'By.xpath: //select[@id='aktualne_stanowisko']' in '3' second(s)
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/Wybierz opcje' with value '4'
+
+2019-02-26 08:15:54 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Wybierz opcje' 
+
+2019-02-26 08:15:54 - [TEST_STEP][PASSED] - click(findTestObject("hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)")): Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)' is clicked on
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)'
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)' located by 'By.xpath: //div[@id='obi_zastepstwa_akceptacja_lista_button']/div' in '3' second(s)
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)' located by 'By.xpath: //div[@id='obi_zastepstwa_akceptacja_lista_button']/div' in '3' second(s)
+
+2019-02-26 08:15:54 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)'
+
+2019-02-26 08:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Akceptacja)' is clicked on
+
+2019-02-26 08:15:55 - [TEST_STEP][PASSED] - Thread.sleep(300): null
+
+2019-02-26 08:15:55 - [TEST_STEP][PASSED] - help_pack.wait_for_text.not_Present("Proszę czekać...", 15): help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:15:55 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:15:56 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:15:56 - [MESSAGE][WARNING] - Text 'Proszę czekać...' is present on page 
+
+2019-02-26 08:15:56 - [MESSAGE][INFO] - Delaying browser in 1 second(s)
+
+2019-02-26 08:15:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-26 08:15:57 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:15:58 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:15:58 - [MESSAGE][PASSED] - Text 'Proszę czekać...' is not present on page
+
+2019-02-26 08:15:58 - [MESSAGE][PASSED] - help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:15:58 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("tabela", ["xpath":"//td[3]"]), 15): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:58 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/tabela'
+
+2019-02-26 08:15:58 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:58 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/tabela' located by 'By.xpath: //td[3]' in '3' second(s)
+
+2019-02-26 08:15:58 - [MESSAGE][INFO] - Found 16 web elements with id: 'Object Repository/tabela' located by 'By.xpath: //td[3]' in '3' second(s)
+
+2019-02-26 08:15:58 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:58 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:58 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("button", ["xpath":"//div[@id='obi_zastepstwa_akceptacja_actions_akceptacja']/div"]), 15): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:58 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/button'
+
+2019-02-26 08:15:58 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:58 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/button' located by 'By.xpath: //div[@id='obi_zastepstwa_akceptacja_actions_akceptacja']/div' in '3' second(s)
+
+2019-02-26 08:15:58 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/button' located by 'By.xpath: //div[@id='obi_zastepstwa_akceptacja_actions_akceptacja']/div' in '3' second(s)
+
+2019-02-26 08:15:58 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:15:58 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:15:58 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-02-26 08:15:59 - [TEST_STEP][PASSED] - setText(findTestObject("pole tekstowe", ["xpath":"//input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']"]), "Akceptacja trzecia osoba"): Text 'Akceptacja trzecia osoba' is set on object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:15:59 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:15:59 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:15:59 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:15:59 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:59 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/pole tekstowe' located by 'By.xpath: //input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']' in '3' second(s)
+
+2019-02-26 08:15:59 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/pole tekstowe' located by 'By.xpath: //input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']' in '3' second(s)
+
+2019-02-26 08:15:59 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:15:59 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:15:59 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/pole tekstowe' located by 'By.xpath: //input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']' in '3' second(s)
+
+2019-02-26 08:15:59 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/pole tekstowe' located by 'By.xpath: //input[@id='obi_zastepstwa_instancja_akceptacji_uwagi']' in '3' second(s)
+
+2019-02-26 08:15:59 - [MESSAGE][INFO] - Setting text of object 'Object Repository/pole tekstowe' to value 'Akceptacja trzecia osoba'
+
+2019-02-26 08:16:00 - [MESSAGE][PASSED] - Text 'Akceptacja trzecia osoba' is set on object 'Object Repository/pole tekstowe'
+
+2019-02-26 08:16:00 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("button", ["xpath":"//input[@id='btnInstancjaakceptacjiSaveChanges']"]), 15): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:00 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/button'
+
+2019-02-26 08:16:00 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:00 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/button' located by 'By.xpath: //input[@id='btnInstancjaakceptacjiSaveChanges']' in '3' second(s)
+
+2019-02-26 08:16:00 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/button' located by 'By.xpath: //input[@id='btnInstancjaakceptacjiSaveChanges']' in '3' second(s)
+
+2019-02-26 08:16:00 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:16:00 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:00 - [TEST_STEP][PASSED] - SprawdzCzyJestAkceptacja(): null
+
+2019-02-26 08:16:00 - [TEST_STEP][PASSED] - help_pack.Wyloguj.wyloguj(): help_pack.Wyloguj.wyloguj is PASSED
+
+2019-02-26 08:16:00 - [MESSAGE][INFO] - Checking url
+
+2019-02-26 08:16:00 - [MESSAGE][INFO] - Navigating to 'http://tsk6365.testy.hsi.pl/login'
+
+2019-02-26 08:16:01 - [MESSAGE][PASSED] - Navigate to 'http://tsk6365.testy.hsi.pl/login' successfully
+
+2019-02-26 08:16:01 - [MESSAGE][PASSED] - help_pack.Wyloguj.wyloguj is PASSED
+
+2019-02-26 08:16:01 - [TEST_STEP][PASSED] - help_pack.Logowanie.zaloguj("admin", "gqNiyN/IiIvaUo8G1BKwoQ=="): help_pack.Logowanie.zaloguj is PASSED
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Setting text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' to value 'admin'
+
+2019-02-26 08:16:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' located by 'By.xpath: //input[@id='password']' in '3' second(s)
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' located by 'By.xpath: //input[@id='password']' in '3' second(s)
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:16:01 - [MESSAGE][INFO] - Setting  text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' to value ******
+
+2019-02-26 08:16:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:16:02 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj'
+
+2019-02-26 08:16:02 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:02 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:02 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' located by 'By.xpath: //input[@value='ZALOGUJ']' in '3' second(s)
+
+2019-02-26 08:16:02 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' located by 'By.xpath: //input[@value='ZALOGUJ']' in '3' second(s)
+
+2019-02-26 08:16:02 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj'
+
+2019-02-26 08:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' is clicked on
+
+2019-02-26 08:16:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie'
+
+2019-02-26 08:16:05 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:05 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:05 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' located by 'By.xpath: //div[@id='kokpit-container']/div/div/div' in '25' second(s)
+
+2019-02-26 08:16:07 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' located by 'By.xpath: //div[@id='kokpit-container']/div/div/div' in '25' second(s)
+
+2019-02-26 08:16:07 - [MESSAGE][PASSED] - Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' is visible
+
+2019-02-26 08:16:07 - [MESSAGE][PASSED] - help_pack.Logowanie.zaloguj is PASSED
+
+2019-02-26 08:16:07 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski"), 10): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski'
+
+2019-02-26 08:16:07 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:07 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski' located by 'By.xpath: //a[@id='obi_topmenu_zastepstwa']' in '3' second(s)
+
+2019-02-26 08:16:07 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski' located by 'By.xpath: //a[@id='obi_topmenu_zastepstwa']' in '3' second(s)
+
+2019-02-26 08:16:07 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:16:07 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:07 - [TEST_STEP][PASSED] - click(findTestObject("hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)")): Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)' is clicked on
+
+2019-02-26 08:16:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)'
+
+2019-02-26 08:16:07 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:07 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:07 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)' located by 'By.xpath: //div[@id='obi_zastepstwa_rejestracja_lista_button']/div' in '3' second(s)
+
+2019-02-26 08:16:07 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)' located by 'By.xpath: //div[@id='obi_zastepstwa_rejestracja_lista_button']/div' in '3' second(s)
+
+2019-02-26 08:16:08 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)'
+
+2019-02-26 08:16:08 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)' is clicked on
+
+2019-02-26 08:16:08 - [TEST_STEP][PASSED] - help_pack.Set_text_and_press_enter.set_text(findTestObject("hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko"), "Wojciechowski"): help_pack.Set_text_and_press_enter.set_text is PASSED
+
+2019-02-26 08:16:08 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:16:08 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:08 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:08 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '5' second(s)
+
+2019-02-26 08:16:09 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '5' second(s)
+
+2019-02-26 08:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' is present
+
+2019-02-26 08:16:09 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:10 - [MESSAGE][INFO] - Finding text 'Trwa ładowanie' on page 
+
+2019-02-26 08:16:10 - [MESSAGE][PASSED] - Text 'Trwa ładowanie' is not present on page
+
+2019-02-26 08:16:10 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:11 - [MESSAGE][INFO] - Finding text 'Ładowanie...' on page 
+
+2019-02-26 08:16:11 - [MESSAGE][PASSED] - Text 'Ładowanie...' is not present on page
+
+2019-02-26 08:16:11 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:11 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:16:11 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:11 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:16:11 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:16:11 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:16:11 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:11 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:16:11 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:16:11 - [MESSAGE][INFO] - Setting text of object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' to value 'Wojciechowski'
+
+2019-02-26 08:16:12 - [MESSAGE][PASSED] - Text 'Wojciechowski' is set on object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:16:12 - [MESSAGE][INFO] - Sending keys 'TAB + ' to object: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:16:12 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:12 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:16:12 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:16:12 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:16:12 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:13 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:16:13 - [MESSAGE][WARNING] - Text 'Proszę czekać...' is present on page 
+
+2019-02-26 08:16:13 - [MESSAGE][INFO] - Delaying browser in 1 second(s)
+
+2019-02-26 08:16:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-26 08:16:14 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:14 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:16:14 - [MESSAGE][PASSED] - Text 'Proszę czekać...' is not present on page
+
+2019-02-26 08:16:14 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:15 - [MESSAGE][INFO] - Finding text 'Proszę czekać ...' on page 
+
+2019-02-26 08:16:15 - [MESSAGE][PASSED] - Text 'Proszę czekać ...' is not present on page
+
+2019-02-26 08:16:15 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:15 - [MESSAGE][INFO] - Finding text 'Proszę czekać' on page 
+
+2019-02-26 08:16:15 - [MESSAGE][PASSED] - Text 'Proszę czekać' is not present on page
+
+2019-02-26 08:16:15 - [MESSAGE][PASSED] - help_pack.Set_text_and_press_enter.set_text is PASSED
+
+2019-02-26 08:16:15 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-02-26 08:16:16 - [TEST_STEP][PASSED] - help_pack.wait_for_text.not_Present("Proszę czekać...", 15): help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:16:16 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:16 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:16:16 - [MESSAGE][PASSED] - Text 'Proszę czekać...' is not present on page
+
+2019-02-26 08:16:16 - [MESSAGE][PASSED] - help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:16:16 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/Wiersz pierwszy w tabela Stanwiska"), 5): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:16 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/Wiersz pierwszy w tabela Stanwiska'
+
+2019-02-26 08:16:16 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:16 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/Wiersz pierwszy w tabela Stanwiska' located by 'By.xpath: //table[@id='tblStanowiskaIndexGrid']/tbody/tr[1]/td[1]' in '3' second(s)
+
+2019-02-26 08:16:16 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/Wiersz pierwszy w tabela Stanwiska' located by 'By.xpath: //table[@id='tblStanowiskaIndexGrid']/tbody/tr[1]/td[1]' in '3' second(s)
+
+2019-02-26 08:16:16 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:16:16 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:16 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/wiersz pierwszy w tabela Zastepstwa"), 5): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:16 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/wiersz pierwszy w tabela Zastepstwa'
+
+2019-02-26 08:16:16 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:16 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/wiersz pierwszy w tabela Zastepstwa' located by 'By.xpath: //table[@id='tblZastepstwaIndexGrid']/tbody/tr[1]/td[5]' in '3' second(s)
+
+2019-02-26 08:16:17 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/wiersz pierwszy w tabela Zastepstwa' located by 'By.xpath: //table[@id='tblZastepstwaIndexGrid']/tbody/tr[1]/td[5]' in '3' second(s)
+
+2019-02-26 08:16:17 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:16:17 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:17 - [TEST_STEP][PASSED] - CzyZaacpetowany = getText(findTestObject("tabela", ["xpath":"//table[@id='tblZastepstwaIndexGrid']/tbody/tr/td[9]"])): Text of object 'Object Repository/tabela' is: 'Tak'
+
+2019-02-26 08:16:17 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/tabela'
+
+2019-02-26 08:16:17 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:17 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:17 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/tabela' located by 'By.xpath: //table[@id='tblZastepstwaIndexGrid']/tbody/tr/td[9]' in '3' second(s)
+
+2019-02-26 08:16:17 - [MESSAGE][INFO] - Found 10 web elements with id: 'Object Repository/tabela' located by 'By.xpath: //table[@id='tblZastepstwaIndexGrid']/tbody/tr/td[9]' in '3' second(s)
+
+2019-02-26 08:16:17 - [MESSAGE][INFO] - Getting text of object 'Object Repository/tabela'
+
+2019-02-26 08:16:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/tabela' is: 'Tak'
+
+2019-02-26 08:16:18 - [TEST_STEP][PASSED] - DataAkceptacji = getText(findTestObject("tabela", ["xpath":"//table[@id='tblZastepstwaIndexGrid']/tbody/tr/td[12]"])): Text of object 'Object Repository/tabela' is: '2019-02-26 08:15:59'
+
+2019-02-26 08:16:18 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/tabela'
+
+2019-02-26 08:16:18 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:18 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:18 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/tabela' located by 'By.xpath: //table[@id='tblZastepstwaIndexGrid']/tbody/tr/td[12]' in '3' second(s)
+
+2019-02-26 08:16:18 - [MESSAGE][INFO] - Found 10 web elements with id: 'Object Repository/tabela' located by 'By.xpath: //table[@id='tblZastepstwaIndexGrid']/tbody/tr/td[12]' in '3' second(s)
+
+2019-02-26 08:16:18 - [MESSAGE][INFO] - Getting text of object 'Object Repository/tabela'
+
+2019-02-26 08:16:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/tabela' is: '2019-02-26 08:15:59'
+
+2019-02-26 08:16:18 - [TEST_STEP][ERROR] - assert CzyZaakceptowany == "tak": assert CzyZaakceptowany == "tak" FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: CzyZaakceptowany for class: Script1551098062967
+	at Test_003.3 Akceptacja zastepstwa.SprawdzCzyJestAkceptacja(Test_003.3 Akceptacja zastepstwa:237)
+	at Test_003.3 Akceptacja zastepstwa.run(Test_003.3 Akceptacja zastepstwa:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551165248924.run(TempTestSuite1551165248924.groovy:36)
+
+
+2019-02-26 08:16:18 - [MESSAGE][ERROR] - assert CzyZaakceptowany == "tak" FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: CzyZaakceptowany for class: Script1551098062967
+	at Test_003.3 Akceptacja zastepstwa.SprawdzCzyJestAkceptacja(Test_003.3 Akceptacja zastepstwa:237)
+	at Test_003.3 Akceptacja zastepstwa.run(Test_003.3 Akceptacja zastepstwa:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551165248924.run(TempTestSuite1551165248924.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-26 08:15:13 - [TEST_CASE][ERROR] - Test Cases/Testy jeden po drugim zastepstwa/Test_003.3 Akceptacja zastepstwa: Test Cases/Testy jeden po drugim zastepstwa/Test_003.3 Akceptacja zastepstwa FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: CzyZaakceptowany for class: Script1551098062967
+	at Test_003.3 Akceptacja zastepstwa.SprawdzCzyJestAkceptacja(Test_003.3 Akceptacja zastepstwa:237)
+	at Test_003.3 Akceptacja zastepstwa.run(Test_003.3 Akceptacja zastepstwa:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551165248924.run(TempTestSuite1551165248924.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testy jeden po drugim zastepstwa/Test_003.4 Aktywacja zastepstwa" classname="Test Cases/Testy jeden po drugim zastepstwa/Test_003.4 Aktywacja zastepstwa" status="PASSED">
+         <system-out><![CDATA[2019-02-26 08:16:18 - [TEST_CASE][PASSED] - Test Cases/Testy jeden po drugim zastepstwa/Test_003.4 Aktywacja zastepstwa: Test Cases/Testy jeden po drugim zastepstwa/Test_003.4 Aktywacja zastepstwa
+
+2019-02-26 08:16:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Pomoc_w_test_suite.sampleBeforeTestCase(...)' completed.
+
+2019-02-26 08:16:18 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Pomoc_w_test_suite.sampleBeforeTestCase(...)'
+
+2019-02-26 08:16:18 - [TEST_STEP][PASSED] - url = getUrl(OPTIONAL): Current window's url is: 'http://tsk6365.testy.hsi.pl/#view'
+
+2019-02-26 08:16:18 - [MESSAGE][INFO] - Getting current window's url
+
+2019-02-26 08:16:18 - [MESSAGE][PASSED] - Current window's url is: 'http://tsk6365.testy.hsi.pl/#view'
+
+2019-02-26 08:16:18 - [TEST_STEP][PASSED] - if (url == null): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Pomoc_w_test_suite.sampleBeforeTestCase(...)' completed.
+
+2019-02-26 08:16:18 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Pomoc_w_test_suite.sampleBeforeTestCase(...)' completed.
+
+2019-02-26 08:16:20 - [TEST_STEP][NOT_RUN] - help_pack.Wyloguj.wyloguj(): NOT_RUN: help_pack.Wyloguj.wyloguj()
+
+2019-02-26 08:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: help_pack.Wyloguj.wyloguj()
+
+2019-02-26 08:16:20 - [TEST_STEP][NOT_RUN] - help_pack.Logowanie.zaloguj("admin", "gqNiyN/IiIvaUo8G1BKwoQ=="): NOT_RUN: help_pack.Logowanie.zaloguj("admin", "gqNiyN/IiIvaUo8G1BKwoQ==")
+
+2019-02-26 08:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: help_pack.Logowanie.zaloguj("admin", "gqNiyN/IiIvaUo8G1BKwoQ==")
+
+2019-02-26 08:16:20 - [TEST_STEP][NOT_RUN] - TworzenieZastepstwa(): NOT_RUN: TworzenieZastepstwa()
+
+2019-02-26 08:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: TworzenieZastepstwa()
+
+2019-02-26 08:16:20 - [TEST_STEP][NOT_RUN] - help_pack.Wyloguj.wyloguj(): NOT_RUN: help_pack.Wyloguj.wyloguj()
+
+2019-02-26 08:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: help_pack.Wyloguj.wyloguj()
+
+2019-02-26 08:16:20 - [TEST_STEP][NOT_RUN] - help_pack.Logowanie.zaloguj("anna.borowska", "gqNiyN/IiIvaUo8G1BKwoQ=="): NOT_RUN: help_pack.Logowanie.zaloguj("anna.borowska", "gqNiyN/IiIvaUo8G1BKwoQ==")
+
+2019-02-26 08:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: help_pack.Logowanie.zaloguj("anna.borowska", "gqNiyN/IiIvaUo8G1BKwoQ==")
+
+2019-02-26 08:16:20 - [TEST_STEP][NOT_RUN] - AkceptacjaNaKoncieAnnaBorowska(): NOT_RUN: AkceptacjaNaKoncieAnnaBorowska()
+
+2019-02-26 08:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: AkceptacjaNaKoncieAnnaBorowska()
+
+2019-02-26 08:16:20 - [TEST_STEP][NOT_RUN] - help_pack.Wyloguj.wyloguj(): NOT_RUN: help_pack.Wyloguj.wyloguj()
+
+2019-02-26 08:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: help_pack.Wyloguj.wyloguj()
+
+2019-02-26 08:16:20 - [TEST_STEP][NOT_RUN] - help_pack.Logowanie.zaloguj("romuald.puzyrewski", "gqNiyN/IiIvaUo8G1BKwoQ=="): NOT_RUN: help_pack.Logowanie.zaloguj("romuald.puzyrewski", "gqNiyN/IiIvaUo8G1BKwoQ==")
+
+2019-02-26 08:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: help_pack.Logowanie.zaloguj("romuald.puzyrewski", "gqNiyN/IiIvaUo8G1BKwoQ==")
+
+2019-02-26 08:16:20 - [TEST_STEP][NOT_RUN] - AkceptacjaNaKoncieRomualdPuzyrewski(): NOT_RUN: AkceptacjaNaKoncieRomualdPuzyrewski()
+
+2019-02-26 08:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: AkceptacjaNaKoncieRomualdPuzyrewski()
+
+2019-02-26 08:16:20 - [TEST_STEP][NOT_RUN] - help_pack.Wyloguj.wyloguj(): NOT_RUN: help_pack.Wyloguj.wyloguj()
+
+2019-02-26 08:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: help_pack.Wyloguj.wyloguj()
+
+2019-02-26 08:16:20 - [TEST_STEP][NOT_RUN] - help_pack.Logowanie.zaloguj("ludwik.bartoszewicz", "gqNiyN/IiIvaUo8G1BKwoQ=="): NOT_RUN: help_pack.Logowanie.zaloguj("ludwik.bartoszewicz", "gqNiyN/IiIvaUo8G1BKwoQ==")
+
+2019-02-26 08:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: help_pack.Logowanie.zaloguj("ludwik.bartoszewicz", "gqNiyN/IiIvaUo8G1BKwoQ==")
+
+2019-02-26 08:16:20 - [TEST_STEP][NOT_RUN] - AkceptacjaNaKoncieLudwikBartoszewicz(): NOT_RUN: AkceptacjaNaKoncieLudwikBartoszewicz()
+
+2019-02-26 08:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: AkceptacjaNaKoncieLudwikBartoszewicz()
+
+2019-02-26 08:16:20 - [TEST_STEP][NOT_RUN] - SprawdzCzyJestAkceptacja(): NOT_RUN: SprawdzCzyJestAkceptacja()
+
+2019-02-26 08:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: SprawdzCzyJestAkceptacja()
+
+2019-02-26 08:16:20 - [TEST_STEP][PASSED] - AktywacjaZastepstwa(): null
+
+2019-02-26 08:16:20 - [TEST_STEP][PASSED] - help_pack.Wyloguj.wyloguj(): help_pack.Wyloguj.wyloguj is PASSED
+
+2019-02-26 08:16:20 - [MESSAGE][INFO] - Checking url
+
+2019-02-26 08:16:20 - [MESSAGE][INFO] - Navigating to 'http://tsk6365.testy.hsi.pl/login'
+
+2019-02-26 08:16:21 - [MESSAGE][PASSED] - Navigate to 'http://tsk6365.testy.hsi.pl/login' successfully
+
+2019-02-26 08:16:21 - [MESSAGE][PASSED] - help_pack.Wyloguj.wyloguj is PASSED
+
+2019-02-26 08:16:21 - [TEST_STEP][PASSED] - help_pack.Logowanie.zaloguj("admin", "gqNiyN/IiIvaUo8G1BKwoQ=="): help_pack.Logowanie.zaloguj is PASSED
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' located by 'By.xpath: //input[@id='username']' in '3' second(s)
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Setting text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika' to value 'admin'
+
+2019-02-26 08:16:21 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole Nazwa uzytkownika'
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' located by 'By.xpath: //input[@id='password']' in '3' second(s)
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' located by 'By.xpath: //input[@id='password']' in '3' second(s)
+
+2019-02-26 08:16:21 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:16:22 - [MESSAGE][INFO] - Setting  text of object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo' to value ******
+
+2019-02-26 08:16:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/pole haslo'
+
+2019-02-26 08:16:22 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj'
+
+2019-02-26 08:16:22 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:22 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:22 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' located by 'By.xpath: //input[@value='ZALOGUJ']' in '3' second(s)
+
+2019-02-26 08:16:22 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' located by 'By.xpath: //input[@value='ZALOGUJ']' in '3' second(s)
+
+2019-02-26 08:16:22 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj'
+
+2019-02-26 08:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/button zaloguj' is clicked on
+
+2019-02-26 08:16:25 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie'
+
+2019-02-26 08:16:25 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:25 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:25 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:25 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' located by 'By.xpath: //div[@id='kokpit-container']/div/div/div' in '25' second(s)
+
+2019-02-26 08:16:28 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' located by 'By.xpath: //div[@id='kokpit-container']/div/div/div' in '25' second(s)
+
+2019-02-26 08:16:28 - [MESSAGE][PASSED] - Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/logowanie/ostatni element na stronie' is visible
+
+2019-02-26 08:16:28 - [MESSAGE][PASSED] - help_pack.Logowanie.zaloguj is PASSED
+
+2019-02-26 08:16:28 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski"), 10): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:28 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski'
+
+2019-02-26 08:16:28 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:28 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski' located by 'By.xpath: //a[@id='obi_topmenu_zastepstwa']' in '3' second(s)
+
+2019-02-26 08:16:28 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Zastepstwa i wnioski' located by 'By.xpath: //a[@id='obi_topmenu_zastepstwa']' in '3' second(s)
+
+2019-02-26 08:16:28 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:16:28 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:28 - [TEST_STEP][PASSED] - click(findTestObject("hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)")): Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)' is clicked on
+
+2019-02-26 08:16:28 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)'
+
+2019-02-26 08:16:28 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:28 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:28 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)' located by 'By.xpath: //div[@id='obi_zastepstwa_rejestracja_lista_button']/div' in '3' second(s)
+
+2019-02-26 08:16:28 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)' located by 'By.xpath: //div[@id='obi_zastepstwa_rejestracja_lista_button']/div' in '3' second(s)
+
+2019-02-26 08:16:28 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)'
+
+2019-02-26 08:16:29 - [MESSAGE][PASSED] - Object: 'Object Repository/hsi_pl_login/Menu glowne belka gorna/Podmenu zastepstwa i wnioski/Lista (Definiowane)' is clicked on
+
+2019-02-26 08:16:29 - [TEST_STEP][PASSED] - help_pack.Set_text_and_press_enter.set_text(findTestObject("hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko"), "Wojciechowski"): help_pack.Set_text_and_press_enter.set_text is PASSED
+
+2019-02-26 08:16:29 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:16:29 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:29 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:29 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '5' second(s)
+
+2019-02-26 08:16:30 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '5' second(s)
+
+2019-02-26 08:16:30 - [MESSAGE][PASSED] - Object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' is present
+
+2019-02-26 08:16:30 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:31 - [MESSAGE][INFO] - Finding text 'Trwa ładowanie' on page 
+
+2019-02-26 08:16:31 - [MESSAGE][PASSED] - Text 'Trwa ładowanie' is not present on page
+
+2019-02-26 08:16:31 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:31 - [MESSAGE][INFO] - Finding text 'Ładowanie...' on page 
+
+2019-02-26 08:16:31 - [MESSAGE][PASSED] - Text 'Ładowanie...' is not present on page
+
+2019-02-26 08:16:31 - [MESSAGE][INFO] - Checking object
+
+2019-02-26 08:16:31 - [MESSAGE][INFO] - Checking text
+
+2019-02-26 08:16:31 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:31 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:16:31 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:16:31 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:16:31 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:31 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:16:31 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:16:31 - [MESSAGE][INFO] - Setting text of object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' to value 'Wojciechowski'
+
+2019-02-26 08:16:32 - [MESSAGE][PASSED] - Text 'Wojciechowski' is set on object 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:16:32 - [MESSAGE][INFO] - Sending keys 'TAB + ' to object: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:16:32 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:32 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:16:32 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko' located by 'By.xpath: //input[@name='nazwisko']' in '3' second(s)
+
+2019-02-26 08:16:32 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/hsi_pl_login/Obiekty A i L/Obiekty dodatkowe do test_001/Do pola nazwisko'
+
+2019-02-26 08:16:32 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:33 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:16:33 - [MESSAGE][WARNING] - Text 'Proszę czekać...' is present on page 
+
+2019-02-26 08:16:33 - [MESSAGE][INFO] - Delaying browser in 1 second(s)
+
+2019-02-26 08:16:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-02-26 08:16:34 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:34 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:16:34 - [MESSAGE][PASSED] - Text 'Proszę czekać...' is not present on page
+
+2019-02-26 08:16:34 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:35 - [MESSAGE][INFO] - Finding text 'Proszę czekać ...' on page 
+
+2019-02-26 08:16:35 - [MESSAGE][PASSED] - Text 'Proszę czekać ...' is not present on page
+
+2019-02-26 08:16:35 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:35 - [MESSAGE][INFO] - Finding text 'Proszę czekać' on page 
+
+2019-02-26 08:16:35 - [MESSAGE][PASSED] - Text 'Proszę czekać' is not present on page
+
+2019-02-26 08:16:35 - [MESSAGE][PASSED] - help_pack.Set_text_and_press_enter.set_text is PASSED
+
+2019-02-26 08:16:35 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-02-26 08:16:36 - [TEST_STEP][PASSED] - help_pack.wait_for_text.not_Present("Proszę czekać...", 15): help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:16:36 - [MESSAGE][INFO] - Checking text present 
+
+2019-02-26 08:16:36 - [MESSAGE][INFO] - Finding text 'Proszę czekać...' on page 
+
+2019-02-26 08:16:36 - [MESSAGE][PASSED] - Text 'Proszę czekać...' is not present on page
+
+2019-02-26 08:16:36 - [MESSAGE][PASSED] - help_pack.wait_for_text.not_Present is PASSED
+
+2019-02-26 08:16:36 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/Wiersz pierwszy w tabela Stanwiska"), 5): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:36 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/Wiersz pierwszy w tabela Stanwiska'
+
+2019-02-26 08:16:36 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:36 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/Wiersz pierwszy w tabela Stanwiska' located by 'By.xpath: //table[@id='tblStanowiskaIndexGrid']/tbody/tr[1]/td[1]' in '3' second(s)
+
+2019-02-26 08:16:36 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/Wiersz pierwszy w tabela Stanwiska' located by 'By.xpath: //table[@id='tblStanowiskaIndexGrid']/tbody/tr[1]/td[1]' in '3' second(s)
+
+2019-02-26 08:16:36 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:16:37 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:37 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/wiersz pierwszy w tabela Zastepstwa"), 5): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:37 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/wiersz pierwszy w tabela Zastepstwa'
+
+2019-02-26 08:16:37 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:37 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/wiersz pierwszy w tabela Zastepstwa' located by 'By.xpath: //table[@id='tblZastepstwaIndexGrid']/tbody/tr[1]/td[5]' in '3' second(s)
+
+2019-02-26 08:16:37 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/hsi_pl_login/Obiekty Ludwik/Obiekty dodatkowe do test_001/wiersz pierwszy w tabela Zastepstwa' located by 'By.xpath: //table[@id='tblZastepstwaIndexGrid']/tbody/tr[1]/td[5]' in '3' second(s)
+
+2019-02-26 08:16:37 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:16:37 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:37 - [TEST_STEP][PASSED] - help_pack.Wait_and_click.Clickable(findTestObject("button", ["xpath":"//div[@id='obi_zastepstwa_actions_aktywuj']/div"]), 15): help_pack.Wait_and_click.Clickable is PASSED
+
+2019-02-26 08:16:37 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/button'
+
+2019-02-26 08:16:37 - [MESSAGE][INFO] - Checking timeout
+
+2019-02-26 08:16:37 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/button' located by 'By.xpath: //div[@id='obi_zastepstwa_actions_aktywuj']/div' in '3' second(s)
+
+2019-02-26 08:16:37 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/button' located by 'By.xpath: //div[@id='obi_zastepstwa_actions_aktywuj']/div' in '3' second(s)
+
+2019-02-26 08:16:37 - [MESSAGE][INFO] - Clicking element
+
+2019-02-26 08:16:38 - [MESSAGE][PASSED] - help_pack.Wait_and_click.Clickable is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-26 08:14:18 - [TEST_SUITE][ERROR] - Testowanie zastepstw: Test Cases/Testy jeden po drugim zastepstwa/Test_003.3 Akceptacja zastepstwa FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: CzyZaakceptowany for class: Script1551098062967
+	at Test_003.3 Akceptacja zastepstwa.SprawdzCzyJestAkceptacja(Test_003.3 Akceptacja zastepstwa:237)
+	at Test_003.3 Akceptacja zastepstwa.run(Test_003.3 Akceptacja zastepstwa:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551165248924.run(TempTestSuite1551165248924.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-26 08:14:18 - [TEST_SUITE][ERROR] - Testowanie zastepstw: Test Cases/Testy jeden po drugim zastepstwa/Test_003.3 Akceptacja zastepstwa FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: CzyZaakceptowany for class: Script1551098062967
+	at Test_003.3 Akceptacja zastepstwa.SprawdzCzyJestAkceptacja(Test_003.3 Akceptacja zastepstwa:237)
+	at Test_003.3 Akceptacja zastepstwa.run(Test_003.3 Akceptacja zastepstwa:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551165248924.run(TempTestSuite1551165248924.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

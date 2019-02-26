@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_017 Usuwanie rodzaju dokumentu przychodzacego</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf8e112f-3d15-4775-ab89-3265e2c65581</testCaseGuid>
+</TestCaseEntity>

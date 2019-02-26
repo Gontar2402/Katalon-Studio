@@ -23,57 +23,141 @@ CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login
 CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/podmenu Slownik/przyciski glowne/button Rodzaj dokumentow wewnetrznych'), 
     15)
 
-CustomKeywords.'help_pack.wait_for_text.Present'('Rodzaje dokumentów wewnętrznych', 15)
-
-'wiersz pierwszy w tabeli'
-CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('tabela', [('xpath') : '//td[2]']), 15)
-
-'nazwa rodzaju dokumentu'
-Nazwa = WebUI.getText(findTestObject('tabela', [('xpath') : '//td[2]']))
-
-'Zestaw Atrybutow'
-ZestawAtrybutow = WebUI.getText(findTestObject('tabela', [('xpath') : '//td[3]']))
-
-'button Edycja'
-CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[@id=\'obi_dokwew_kategoria_menu_actions_edycja_button\']/div']), 
+'Nowy'
+CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//li[10]/ul/li[2]/div[2]/div']), 
     15)
 
-'button zmień zestaw atrybutów'
-CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '(//input[@value=\'Zmień\'])[2]']), 
+CustomKeywords.'help_pack.wait_for_text.not_Present'('Proszę czekać...', 15)
+
+tworzenie_nowego_rodzaju_dkoumentu_wewnetrznego()
+
+UtworzNowyDokumentZNowoUtworzonymRodzajem()
+
+WebUI.comment('Sprawdź czy utworzony dokument ma odpowiedni rodzaj')
+
+CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'tytul\']']), 
+    NazwaDokumentuWewnetrzengo)
+
+'Kliknij butto szczegóły'
+CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[@id=\'obi_topmenu_dekretacja_dokument_rejestr_widok_szczeg_dokwew\']/div']), 
     15)
 
-Thread.sleep(400)
+CustomKeywords.'help_pack.wait_for_text.Present'(LosowyRodzajDokuemntu, 15)
 
-'Nazwa Zestawu Atrybutow'
-NazwaZestawuAtrybutow = WebUI.getText(findTestObject('tabela', [('xpath') : '//table[@id=\'tblDefinicjetypowIndexGrid\']/tbody/tr/td[2]']))
+'OK'
+CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[11]/div/button/span']), 
+    15)
 
-'wybierz inny zestaw atrybutów niż obecny'
-if (NazwaZestawuAtrybutow != ZestawAtrybutow) {
-    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('tabela', [('xpath') : '//table[@id=\'tblDefinicjetypowIndexGrid\']/tbody/tr/td[2]']), 
+EycjaRodzajuDokumentuWewnetrznego()
+
+def tworzenie_nowego_rodzaju_dkoumentu_wewnetrznego() {
+    LosowyRodzajDokuemntu = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8)
+
+    WebUI.setText(findTestObject('pole tekstowe', [('xpath') : '//td/input']), LosowyRodzajDokuemntu)
+
+    'Zmień rodzaj nadrzędny'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//input[@value=\'Zmień\']']), 
         15)
-} else {
-    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('tabela', [('xpath') : '//table[@id=\'tblDefinicjetypowIndexGrid\']/tbody/tr[2]/td[2]']), 
+
+    'Kliknij rodzaj atrybutu Media / publikacje'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button text', [('text') : ' Media / publikacje']), 
+        15)
+
+    'OK'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[3]/div/button/span']), 
+        15)
+
+    'Utwórz i zamknij'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//input[3]']), 15)
+
+    CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'nazwa\']']), 
+        LosowyRodzajDokuemntu)
+}
+
+def UtworzNowyDokumentZNowoUtworzonymRodzajem() {
+    NazwaDokumentuWewnetrzengo = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8)
+
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Sprawy'), 
+        15)
+
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/podmenu Sprawy/Dokumenty'), 
+        15)
+
+    'Kliknij button Nowy Wew.'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[@id=\'obi_topmenu_sprawy_dokumenty_actions_nowy_wew\']/div']), 
+        15)
+
+    'Kliknij button odblokuj możliwość edycji'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[@id=\'frmObidokwew_tabs_wymagane\']/table/tbody/tr/td[2]/label/span']), 
+        15)
+
+    'Wpisz nazwę dokumentu do pola tytuł'
+    WebUI.setText(findTestObject('pole tekstowe', [('xpath') : '//input[@id=\'obi_dok_wew_opis\']']), NazwaDokumentuWewnetrzengo)
+
+    'button Zmień Rodzaj dokumentu'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//input[@value=\'Zmień\']']), 
+        15)
+
+    'Kliknij rodzaj atrybutu Media / publikacje'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button text', [('text') : ' Media / publikacje']), 
+        15)
+
+    'Kliknij utworzony rodzaj dokumentu o losowej nazwie'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button text', [('text') : LosowyRodzajDokuemntu]), 
+        15)
+
+    'OK'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[3]/div/button/span']), 
+        15)
+
+    'Kliknij button Utwórz i zamknij'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//input[@id=\'btnDokWewSaveAndClose\']']), 
         15)
 }
 
-LosowaNazwa = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8)
+def EycjaRodzajuDokumentuWewnetrznego() {
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Slowniki'), 
+        15)
 
-'Wpisz nową losową nazwe'
-WebUI.setText(findTestObject('pole tekstowe', [('xpath') : '//input[@id=\'obi_dok_wew_rodzaje_nazwa\']']), LosowaNazwa)
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/podmenu Slownik/przyciski glowne/button Rodzaj dokumentow wewnetrznych'), 
+        15)
 
-'button Zapisz'
-CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//input[@id=\'btnOsobyGrupySave\']']), 
-    15)
+    CustomKeywords.'help_pack.wait_for_text.Present'('Rodzaje dokumentów wewnętrznych', 15)
 
-CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz_z_polem.set_text'(LosowaNazwa, 2)
+    'Wyszukaj i kliknij wcześniej utworzony rodzaj'
+    CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'nazwa\']']), 
+        LosowyRodzajDokuemntu)
 
-'nazwa rodzaju dokumentu'
-NazwaPoEdycji = WebUI.getText(findTestObject('tabela', [('xpath') : '//td[2]']))
+    'button Edycja'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[@id=\'obi_dokwew_kategoria_menu_actions_edycja_button\']/div']), 
+        15)
 
-'Zestaw Atrybutow'
-ZestawAtrybutowPoEdycji = WebUI.getText(findTestObject('tabela', [('xpath') : '//td[3]']))
+    Thread.sleep(400)
 
-assert Nazwa != NazwaPoEdycji
+    NowaLosowaNazwaRodzajuDokumentu = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8)
 
-assert ZestawAtrybutow != ZestawAtrybutowPoEdycji
+    'Wpisz nową losową nazwe'
+    WebUI.setText(findTestObject('pole tekstowe', [('xpath') : '//input[@id=\'obi_dok_wew_rodzaje_nazwa\']']), NowaLosowaNazwaRodzajuDokumentu)
+
+    'button Zapisz'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//input[@id=\'btnOsobyGrupySave\']']), 
+        15)
+
+    WebUI.comment('Sprawdź czy zmieniła się nazwa rodzaju dokumentu po edycji')
+
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/przyciski glowne na belce gornej/Sprawy'), 
+        15)
+
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('hsi_pl_login/Menu glowne belka gorna/podmenu Sprawy/Dokumenty'), 
+        15)
+
+    CustomKeywords.'help_pack.Wyszukaj_w_tabeli_i_kliknij_wyszukany_wiersz.set_text'(findTestObject('pole tekstowe', [('xpath') : '//input[@name=\'tytul\']']), 
+        NazwaDokumentuWewnetrzengo)
+
+    'Kliknij butto szczegóły'
+    CustomKeywords.'help_pack.Wait_and_click.Clickable'(findTestObject('button', [('xpath') : '//div[@id=\'obi_topmenu_dekretacja_dokument_rejestr_widok_szczeg_dokwew\']/div']), 
+        15)
+
+    CustomKeywords.'help_pack.wait_for_text.Present'(NowaLosowaNazwaRodzajuDokumentu, 15)
+}
 

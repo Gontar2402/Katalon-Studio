@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Wpisujemy w filtr Rodzaj urlopu - na żądanie - wynik sortowania wyświetla nam Departamentu i Skrótu organizacyjnego przy filtrowaniu.</description>
+   <name>Test_001 Poprawne filtrowanie - widok wnioskow urlopowych, rodzaj urlopu na zadanie</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d0ad13e-1b93-4ff6-8890-4f6bd0817f2e</testCaseGuid>
+</TestCaseEntity>

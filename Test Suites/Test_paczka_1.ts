@@ -80,7 +80,7 @@
       <guid>876e8c01-b48c-439f-a7ce-1a5a00890e7d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test paczka 3/Testy niezalezne 2/Test_001.1 Dodawanie adresata do grupy kontrahentow</testCaseId>
+      <testCaseId>Test Cases/Test paczka 3/Testy niezalezne 2/Test_001.1 Dodawanie adresata do grupy kontrahentow i usuniecie</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
